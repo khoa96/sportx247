@@ -104,7 +104,7 @@
           </section>
         </aside>
         <aside class="home-page__aside-right">
-					<!-- LIVE MATCH -->
+          <!-- LIVE MATCH -->
           <section class="common-section-match section-hot-match">
             <div class="common-section-match__header">
               <img src="./images/icon-radian.png" class="common-section-match__header-image" alt="">
@@ -184,7 +184,7 @@
                     <button class="btn-watch">Watch</button>
                   </div>
                 </a>
-								 <a class="common-section-match__item">
+                <a class="common-section-match__item">
                   <div class="column-40 league-column">
                     <div class="first-column">
                       <div class="status-icon">
@@ -219,7 +219,7 @@
                     <button class="btn-watch">Watch</button>
                   </div>
                 </a>
-								 <a class="common-section-match__item">
+                <a class="common-section-match__item">
                   <div class="column-40 league-column">
                     <div class="first-column">
                       <div class="status-icon">
@@ -232,7 +232,8 @@
                       <p class="time-label__content">2nd half 34'</p>
                     </div>
                     <div class="last-column">
-                      <p class="league-name text-overflow">Premier League Manchester CityManchester CityManchester City</p>
+                      <p class="league-name text-overflow">Premier League Manchester CityManchester CityManchester City
+                      </p>
                     </div>
                   </div>
                   <div class="column-60 match-column">
@@ -247,7 +248,8 @@
                       <div class="club__item second-club">
                         <img src="./images/sport-league-8.png" class="club-image" alt="">
                         <div class="club-name__wrapper">
-                          <p class="club-name text-overflow">United Manchester City Manchester City Manchester City Manchester City Manchester City</p>
+                          <p class="club-name text-overflow">United Manchester City Manchester City Manchester City
+                            Manchester City Manchester City</p>
                         </div>
                       </div>
                     </div>
@@ -258,14 +260,14 @@
             </div>
           </section>
 
-					<!-- LIVE MATCH -->
+          <!-- LIVE MATCH -->
 
-					<!--HOT MATCH -->
-					 <section class="common-section-match">
+          <!--HOT MATCH -->
+          <section class="common-section-match">
             <div class="common-section-match__header">
               <div class="hot-match-image">
-								<iframe src="https://lottie.host/embed/6cd0ffc7-8ca7-4164-b531-03acfed1b23e/fgawmnZEYq.json"></iframe>
-							</div>
+                <iframe src="https://lottie.host/embed/6cd0ffc7-8ca7-4164-b531-03acfed1b23e/fgawmnZEYq.json"></iframe>
+              </div>
               <h3 class="common-section-match__header-title hot-match__title">Hot match</h3>
             </div>
             <div class="common-section-match__body">
@@ -306,7 +308,7 @@
                 <a class="common-section-match__item">
                   <div class="column-40 league-column">
                     <div class="first-column">
-                       <span class="time-label">July 18, 02:30</span>
+                      <span class="time-label">July 18, 02:30</span>
                     </div>
                     <div class="middle-column">
 
@@ -334,10 +336,10 @@
                     <button class="btn-watch">Watch</button>
                   </div>
                 </a>
-								 <a class="common-section-match__item">
+                <a class="common-section-match__item">
                   <div class="column-40 league-column">
                     <div class="first-column">
-                       <span class="time-label">July 18, 02:30</span>
+                      <span class="time-label">July 18, 02:30</span>
                     </div>
                     <div class="middle-column">
 
@@ -365,16 +367,17 @@
                     <button class="btn-watch">Watch</button>
                   </div>
                 </a>
-								 <a class="common-section-match__item">
+                <a class="common-section-match__item">
                   <div class="column-40 league-column">
                     <div class="first-column">
-                    	<span class="time-label">July 18, 02:30</span>
+                      <span class="time-label">July 18, 02:30</span>
                     </div>
                     <div class="middle-column">
 
                     </div>
                     <div class="last-column">
-                      <p class="league-name text-overflow">Premier League Manchester CityManchester CityManchester City</p>
+                      <p class="league-name text-overflow">Premier League Manchester CityManchester CityManchester City
+                      </p>
                     </div>
                   </div>
                   <div class="column-60 match-column">
@@ -389,7 +392,8 @@
                       <div class="club__item second-club">
                         <img src="./images/sport-league-2.png" class="club-image" alt="">
                         <div class="club-name__wrapper">
-                          <p class="club-name text-overflow">United Manchester City Manchester City Manchester City Manchester City Manchester City</p>
+                          <p class="club-name text-overflow">United Manchester City Manchester City Manchester City
+                            Manchester City Manchester City</p>
                         </div>
                       </div>
                     </div>
@@ -399,14 +403,43 @@
               </div>
             </div>
           </section>
-					<!-- HOT MATCH -->
+          <!-- HOT MATCH -->
 
+
+          <!-- UPCOMING OR FIXTURE MATCH -->
+          <div class="upcoming-and-fixture-match-wrapper">
+            <div class="dash dash-1"></div>
+            <div id="tabs">
+              <ul class="match-tabs">
+                <li class="tab-item">
+                  <a href="#tabs-1">Upcoming Schedule
+
+									</a>
+                </li>
+                <li class="tab-item">
+                  <a href="#tabs-2">Fixture
+									</a>
+                </li>
+              </ul>
+              <div id="tabs-1" class="tab-content">tab1
+              </div>
+              <div id="tabs-2" class="tab-content">tab2
+              </div>
+            </div>
+            <div class="dash dash-2"></div>
+          </div>
+          <!-- UPCOMING OR FIXTURE MATCH -->
         </aside>
       </div>
 
     </div>
   </div>
   <?php include "templates/footer.php"; ?>
+  <script>
+  $("#tabs").tabs({
+    active: 0
+  });
+  </script>
 </body>
 
 </html>

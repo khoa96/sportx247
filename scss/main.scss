@@ -381,12 +381,12 @@ a {
         align-items: center;
 
         .time-label {
-          color:  #F7FAFC;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-min-width: max-content;
+          color: #f7fafc;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          min-width: max-content;
         }
 
         .status-icon {
@@ -544,5 +544,94 @@ min-width: max-content;
         }
       }
     }
+  }
+}
+
+.upcoming-and-fixture-match-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  margin-top: 24px;
+
+  .dash {
+    position: absolute;
+    width: calc((100% - 360px) / 2);
+    height: 1px;
+    border: none;
+    top: 16px;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .dash-1 {
+    left: 0;
+  }
+
+  .dash-2 {
+    right: 0;
+  }
+
+  #tabs {
+    width: 100%;
+  }
+  .match-tabs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+
+    .tab-item {
+      margin-right: 15px;
+      width: fit-content;;
+      &:last-child {
+        margin-right: 0;
+      }
+      a {
+        display: block;
+        background-color: #111;
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        min-width: max-content;
+        padding: 6px 12px;
+        border: 2px solid #fff;
+        position: relative;
+
+
+        &::after {
+          width: 10px;
+          content: "";
+          height: 10px;
+          border: 2px solid #fff;
+          transform: rotate(45deg);
+          position: absolute;
+          bottom: -6px;
+          display: none;;
+          left: calc((100% - 10px) / 2);
+          background-color: #002672;
+          border-left: none;
+          border-top: none;
+        }
+        }
+    }
+
+    .ui-tabs-active {
+      a {
+        background-color: #002672;
+
+        &::after {
+          display: block;
+        }
+      }
+    }
+  }
+
+  .tab-content {
+    width: 100%;
+    border: 1px solid red;
   }
 }
