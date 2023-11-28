@@ -1,46 +1,13 @@
-/* -----------------------------------------------------------
-	font-face
------------------------------------------------------------ */
-@font-face {
-  font-family: "Poppins";
-  src: url("../fonts/Poppins-Regular.ttf");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Poppins";
-  src: url("../fonts/Poppins-Light.ttf");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Poppins";
-  src: url("../fonts/Poppins-Medium.ttf");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Poppins";
-  src: url("../fonts/Poppins-SemiBold.ttf");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Poppins";
-  src: url("../fonts/Poppins-Bold.ttf");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
+@charset "utf-8";
+@import "variables";
+@import "mixins";
+@import "fonts";
+
 /* -----------------------------------------------------------
 	common
 ----------------------------------------------------------- */
 body {
-  font-family: "Poppins";
+  font-family: $font_main;
   font-size: 14px;
   position: relative;
 }
@@ -50,33 +17,29 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
 img {
   max-width: 100%;
 }
-
 a,
 button,
 .btn {
   transition: all 0.4s ease;
 }
-
 .over {
   transition: all 0.4s ease;
+  &:hover {
+    opacity: 0.7;
+  }
 }
-.over:hover {
-  opacity: 0.7;
-}
-
 .list-style-none {
   list-style: none !important;
 }
-
 h1, h2, h3, h4, h5, h6, ul, ol, li {
-  margin: 0;
-  padding: 0;
+  margin:0;
+  padding: 0;;
 }
 
+// header-style
 .header {
   background-color: #E92828;
   position: sticky;
@@ -87,9 +50,8 @@ h1, h2, h3, h4, h5, h6, ul, ol, li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-@media only screen and (max-width: 991px) {
-  .header {
+
+  @include mq(max_md) {
     display: block;
   }
 }
@@ -114,9 +76,8 @@ h1, h2, h3, h4, h5, h6, ul, ol, li {
   padding-bottom: 8px;
   border-bottom: 4px solid transparent;
   margin-right: 32px;
-}
-@media (max-width: 1200px) {
-  .header li a {
+
+  @media (max-width: 1200px) {
     font-size: 16px;
     margin-right: 24px;
     padding-bottom: 6px;
@@ -124,45 +85,50 @@ h1, h2, h3, h4, h5, h6, ul, ol, li {
   }
 }
 
-.header .header-btn {
-  padding: 10px 16px;
-  border: none;
-  cursor: pointer;
-  display: block;
-  width: fit-content;
-  margin-right: 12px;
-  color: #FFF;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  text-decoration: none;
-}
-.header .header-btn:last-child {
-  margin-right: 0;
-}
-.header .btn-sign-in {
-  border: none;
-  background-color: #EA021A;
-}
-.header .btn-sign-up {
-  background-color: transparent;
-  border: 1px solid #fff;
-}
 
-.header .nav .active a {
-  border-bottom: 4px solid #fff;
+.header  {
+  .header-btn {
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: fit-content;
+    margin-right: 12px;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .btn-sign-in {
+    border: none;
+    background-color: #EA021A;
+  }
+
+  .btn-sign-up {
+    background-color: transparent;
+    border: 1px solid #fff;
+  }
+}
+.header .nav .active {
+  a {
+    border-bottom: 4px solid #fff;
+  }
 }
 
 .header li a:hover,
 .header .nav-btn:hover {
-  border-bottom: 4px solid #fff;
-}
-@media (max-width: 1200px) {
-  .header li a:hover,
-.header .nav-btn:hover {
-    border-bottom: 3px solid #fff;
-  }
+  border-bottom: 4px solid #fff;;
+
+   @media (max-width: 1200px)  {
+     border-bottom: 3px solid #fff;;
+   }
 }
 
 .header .logo {
@@ -171,16 +137,15 @@ h1, h2, h3, h4, h5, h6, ul, ol, li {
   width: fit-content;
   height: 72px;
   text-decoration: none;
-}
-@media only screen and (max-width: 991px) {
-  .header .logo {
-    height: 44px;
+
+  @include mq(max_md) {
+    height: 44px;;
   }
-}
-.header .logo img {
-  display: block;
-  height: 100%;
-  object-fit: cover;
+  img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 /* nav */
@@ -191,10 +156,9 @@ h1, h2, h3, h4, h5, h6, ul, ol, li {
   padding-right: 40px;
   display: flex;
   align-items: center;
-}
-@media only screen and (max-width: 991px) {
-  .header .nav {
-    padding-right: 24px;
+
+  @include mq(max_md) {
+    padding-right: 24px;;
   }
 }
 
@@ -230,16 +194,17 @@ h1, h2, h3, h4, h5, h6, ul, ol, li {
 .header .nav-icon .nav-icon:before {
   top: 5px;
 }
-
 .header .nav-icon .nav-icon:after {
   top: -5px;
 }
 
 /* nav btn */
+
 .header .nav-btn {
   display: none;
 }
 
+// style nav mobile.
 .header .nav-btn:checked ~ .nav {
   max-height: fit-content;
 }
@@ -262,6 +227,9 @@ h1, h2, h3, h4, h5, h6, ul, ol, li {
   .header li {
     float: left;
   }
+  .header li a {
+    // padding: 20px 30px;
+  }
   .header .nav {
     clear: none;
     float: right;
@@ -271,10 +239,14 @@ h1, h2, h3, h4, h5, h6, ul, ol, li {
     display: none;
   }
 }
-.list-sport__wrapper {
-  width: 100%;
-  height: auto;
-  background: linear-gradient(107deg, #0639A0 0%, #AF2626 100%);
-}
 
-/*# sourceMappingURL=header.css.map */
+
+
+// style  sub menu
+.list-sport {
+  &__wrapper {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(107deg, #0639A0 0%, #AF2626 100%);
+  }
+}
