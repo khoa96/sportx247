@@ -102,8 +102,18 @@ h1, h2, h3, h4, h5, h6, ul, ol, li, p {
   margin: 0;
   padding: 0;
   list-style: none;
-  overflow: hidden;
+  overflow-y: hidden;
   background-color: transparent;
+}
+@media (max-width: 1200px) {
+  .header ul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #111;
+    color: #fff;
+  }
 }
 
 .header li a {
@@ -122,9 +132,12 @@ h1, h2, h3, h4, h5, h6, ul, ol, li, p {
 @media (max-width: 1200px) {
   .header li a {
     font-size: 16px;
-    margin-right: 24px;
-    padding-bottom: 6px;
-    border-bottom: 3px solid transparent;
+    display: block;
+    width: 100%;
+    padding: 8px 0px;
+    font-weight: 500;
+    margin-right: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   }
 }
 
@@ -196,9 +209,12 @@ h1, h2, h3, h4, h5, h6, ul, ol, li, p {
   display: flex;
   align-items: center;
 }
-@media only screen and (max-width: 991px) {
+@media (max-width: 1200px) {
   .header .nav {
-    padding-right: 24px;
+    padding-right: 0;
+    width: 100%;
+    align-items: flex-start;
+    padding: 16px 0px 16px 16px;
   }
 }
 
