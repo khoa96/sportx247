@@ -16,6 +16,7 @@
   <link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/authen.css">
+				<link rel="stylesheet" type="text/css" href="css/live.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
   <!-- WARNING: Respond.js doesn't work if you view the page via file://-->
