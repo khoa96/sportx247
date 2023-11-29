@@ -72,17 +72,27 @@ button,
   list-style: none !important;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6, ul, ol, li, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p {
   margin: 0;
   padding: 0;
 }
 
 .header {
-  background-color: #E92828;
+  background-color: #e92828;
   position: sticky;
   top: 0;
   left: 0;
@@ -137,7 +147,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, li, p {
 .header li a {
   display: block;
   text-decoration: none;
-  color: #FFF;
+  color: #fff;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -166,7 +176,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, li, p {
   display: block;
   width: fit-content;
   margin-right: 12px;
-  color: #FFF;
+  color: #fff;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -178,12 +188,12 @@ h1, h2, h3, h4, h5, h6, ul, ol, li, p {
 }
 .header .btn-sign-in {
   border: none;
-  background-color: #EA021A;
+  background-color: #ea021a;
 }
 @media (max-width: 1200px) {
   .header .btn-sign-in {
     border-radius: 6px;
-    color: #FFF;
+    color: #fff;
     text-align: center;
     margin: 8px 0px;
     font-size: 12px;
@@ -193,7 +203,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, li, p {
     min-width: 80px;
     text-align: center;
     padding: 6px 12px;
-    background: linear-gradient(107deg, #002672 0%, #F53434 100%);
+    background: linear-gradient(107deg, #002672 0%, #f53434 100%);
   }
 }
 .header .btn-sign-up {
@@ -203,7 +213,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, li, p {
 @media (max-width: 1200px) {
   .header .btn-sign-up {
     border-radius: 6px;
-    border: 1px solid #FFF;
+    border: 1px solid #fff;
     margin: 8px 0px;
     min-width: 80px;
     text-align: center;
@@ -349,7 +359,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, li, p {
 .list-sport__wrapper {
   width: 100%;
   height: auto;
-  background: linear-gradient(107deg, #0639A0 0%, #AF2626 100%);
+  background: linear-gradient(107deg, #0639a0 0%, #af2626 100%);
 }
 .list-sport__list {
   display: flex;
@@ -390,7 +400,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, li, p {
   object-fit: cover;
 }
 .list-sport__item-label {
-  color: #FFF;
+  color: #fff;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;

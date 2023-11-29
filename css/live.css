@@ -133,6 +133,12 @@
   line-height: normal;
   margin-left: 4px;
 }
+.view-match__list-contact .list-contact__item .player-icon {
+  min-width: 20px;
+  max-width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
 .view-match__intro-price-wrapper {
   width: 100%;
   display: flex;
