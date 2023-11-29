@@ -631,13 +631,15 @@ a {
 .section-match-by-time__list-match {
   padding: 0px 16px 16px 16px;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-top: none;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 10px 10px 10px;
 }
 @media only screen and (max-width: 991px) {
   .section-match-by-time__list-match {
     padding: 0px 8px 8px 8px;
   }
+}
+.section-match-by-time__list-match .common-section-match__item:first-child {
+  border-top: none !important;
 }
 .section-match-by-time__header-time {
   background: #F53434;

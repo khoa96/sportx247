@@ -77,6 +77,29 @@ h1, h2, h3, h4, h5, h6, ul, ol, li, p {
   }
 }
 
+.header {
+  .league-nav-for-mb-only {
+    display: none;
+
+    @media (max-width: 1200px) {
+      display: block;
+      width: 100%;
+      margin: 16px 0px;
+      padding-right: 24px;;
+    }
+  }
+}
+
+.nav {
+  li {
+    @media (max-width: 1200px) {
+      width: 100%;
+    }
+  }
+}
+
+
+
 .header li a {
   display: block;
   text-decoration: none;
@@ -97,7 +120,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, li, p {
     padding: 8px 0px;
     font-weight: 500;
     margin-right: 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
   }
 }
 
@@ -125,16 +148,49 @@ h1, h2, h3, h4, h5, h6, ul, ol, li, p {
   .btn-sign-in {
     border: none;
     background-color: #EA021A;
+
+    @media (max-width: 1200px) {
+      border-radius: 6px;
+      color: #FFF;
+      text-align: center;
+      margin: 8px 0px;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      min-width: 80px;
+      text-align: center;
+      padding: 6px 12px;
+      background: linear-gradient(107deg, #002672 0%, #F53434 100%);
+    }
   }
 
   .btn-sign-up {
     background-color: transparent;
     border: 1px solid #fff;
+
+    @media (max-width: 1200px){
+      border-radius: 6px;
+border: 1px solid #FFF;
+ margin: 8px 0px;
+      min-width: 80px;
+      text-align: center;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      padding: 6px 12px;
+background: rgba(0, 38, 114, 0.00);
+    }
   }
 }
 .header .nav .active {
   a {
     border-bottom: 4px solid #fff;
+
+    @media (max-width: 1200px) {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+    }
   }
 }
 
@@ -177,7 +233,8 @@ h1, h2, h3, h4, h5, h6, ul, ol, li, p {
     padding-right: 0;
     width: 100%;
     align-items: flex-start;
-    padding: 16px 0px 16px 16px;
+    padding: 0px;
+    padding-left: 16px;;
   }
 }
 
