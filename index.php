@@ -413,152 +413,292 @@
               <ul class="match-tabs">
                 <li class="tab-item">
                   <a href="#tabs-upcoming-schedule">Upcoming Schedule
-									</a>
+                  </a>
                 </li>
                 <li class="tab-item">
                   <a href="#tab-fixture">Fixture
-									</a>
+                  </a>
                 </li>
               </ul>
               <div id="tabs-upcoming-schedule" class="tab-content">
-								<!--  MATCH FILTER BY TIME -->
-								<section class="section-match-by-time">
-									<div class="section-match-by-time__header-time">
-										<span class="time-label">Sunday, 16/07</span>
-									</div>
+                <!--  MATCH FILTER BY TIME -->
+                <section class="section-match-by-time">
+                  <div class="section-match-by-time__header-time">
+                    <span class="time-label">Sunday, 16/07</span>
+                  </div>
 
-									<div class="section-match-by-time__list-match">
-										<a class="common-section-match__item">
-                  <div class="column-40 league-column">
-                    <div class="first-column">
-                      <span class="time-label">July 18, 02:30</span>
-                    </div>
-                    <div class="middle-column">
+                  <div class="section-match-by-time__list-match">
+                    <a class="common-section-match__item">
+                      <div class="column-40 league-column">
+                        <div class="first-column">
+                          <span class="time-label">July 18, 02:30</span>
+                        </div>
+                        <div class="middle-column">
 
-                    </div>
-                    <div class="last-column">
-                      <p class="league-name text-overflow">Premier League nguyen dang khoa</p>
-                    </div>
-                  </div>
-                  <div class="column-60 match-column">
-                    <div class="clubs-wrapper">
-                      <div class="club__item first-club">
-                        <div class="club-name__wrapper">
-                          <p class="club-name text-overflow">Manchester United United nguyen dang khoa nguye United
-                            nguyen dang khoa nguye</p>
                         </div>
-                        <img src="./images/sport-league-1.png" class="club-image" alt="">
-                      </div>
-                      <div class="result-score">vs</div>
-                      <div class="club__item second-club">
-                        <img src="./images/sport-league-2.png" class="club-image" alt="">
-                        <div class="club-name__wrapper">
-                          <p class="club-name text-overflow">Manchester United nguyen dang khoa nguyen United nguyen
-                            dang khoa nguyen</p>
+                        <div class="last-column">
+                          <p class="league-name text-overflow">Premier League nguyen dang khoa</p>
                         </div>
                       </div>
-                    </div>
-                    <button class="btn-watch">Watch</button>
-                  </div>
-                </a>
-                <a class="common-section-match__item">
-                  <div class="column-40 league-column">
-                    <div class="first-column">
-                      <span class="time-label">July 18, 02:30</span>
-                    </div>
-                    <div class="middle-column">
+                      <div class="column-60 match-column">
+                        <div class="clubs-wrapper">
+                          <div class="club__item first-club">
+                            <div class="club-name__wrapper">
+                              <p class="club-name text-overflow">Manchester United United nguyen dang khoa nguye United
+                                nguyen dang khoa nguye</p>
+                            </div>
+                            <img src="./images/sport-league-1.png" class="club-image" alt="">
+                          </div>
+                          <div class="result-score">vs</div>
+                          <div class="club__item second-club">
+                            <img src="./images/sport-league-2.png" class="club-image" alt="">
+                            <div class="club-name__wrapper">
+                              <p class="club-name text-overflow">Manchester United nguyen dang khoa nguyen United nguyen
+                                dang khoa nguyen</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="btn-watch">Watch</button>
+                      </div>
+                    </a>
+                    <a class="common-section-match__item">
+                      <div class="column-40 league-column">
+                        <div class="first-column">
+                          <span class="time-label">July 18, 02:30</span>
+                        </div>
+                        <div class="middle-column">
 
-                    </div>
-                    <div class="last-column">
-                      <p class="league-name text-overflow">Premier League </p>
-                    </div>
-                  </div>
-                  <div class="column-60 match-column">
-                    <div class="clubs-wrapper">
-                      <div class="club__item first-club">
-                        <div class="club-name__wrapper">
-                          <p class="club-name text-overflow">Manchester</p>
                         </div>
-                        <img src="./images/sport-league-1.png" class="club-image" alt="">
-                      </div>
-                      <div class="result-score">vs</div>
-                      <div class="club__item second-club">
-                        <img src="./images/sport-league-2.png" class="club-image" alt="">
-                        <div class="club-name__wrapper">
-                          <p class="club-name text-overflow">Manchester United</p>
+                        <div class="last-column">
+                          <p class="league-name text-overflow">Premier League </p>
                         </div>
                       </div>
-                    </div>
-                    <button class="btn-watch">Watch</button>
-                  </div>
-                </a>
-                <a class="common-section-match__item">
-                  <div class="column-40 league-column">
-                    <div class="first-column">
-                      <span class="time-label">July 18, 02:30</span>
-                    </div>
-                    <div class="middle-column">
+                      <div class="column-60 match-column">
+                        <div class="clubs-wrapper">
+                          <div class="club__item first-club">
+                            <div class="club-name__wrapper">
+                              <p class="club-name text-overflow">Manchester</p>
+                            </div>
+                            <img src="./images/sport-league-1.png" class="club-image" alt="">
+                          </div>
+                          <div class="result-score">vs</div>
+                          <div class="club__item second-club">
+                            <img src="./images/sport-league-2.png" class="club-image" alt="">
+                            <div class="club-name__wrapper">
+                              <p class="club-name text-overflow">Manchester United</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="btn-watch">Watch</button>
+                      </div>
+                    </a>
+                    <a class="common-section-match__item">
+                      <div class="column-40 league-column">
+                        <div class="first-column">
+                          <span class="time-label">July 18, 02:30</span>
+                        </div>
+                        <div class="middle-column">
 
-                    </div>
-                    <div class="last-column">
-                      <p class="league-name text-overflow">Premier League </p>
-                    </div>
-                  </div>
-                  <div class="column-60 match-column">
-                    <div class="clubs-wrapper">
-                      <div class="club__item first-club">
-                        <div class="club-name__wrapper">
-                          <p class="club-name text-overflow">Manchester</p>
                         </div>
-                        <img src="./images/sport-league-1.png" class="club-image" alt="">
-                      </div>
-                      <div class="result-score">vs</div>
-                      <div class="club__item second-club">
-                        <img src="./images/sport-league-2.png" class="club-image" alt="">
-                        <div class="club-name__wrapper">
-                          <p class="club-name text-overflow">United</p>
+                        <div class="last-column">
+                          <p class="league-name text-overflow">Premier League </p>
                         </div>
                       </div>
-                    </div>
-                    <button class="btn-watch">Watch</button>
-                  </div>
-                </a>
-                <a class="common-section-match__item">
-                  <div class="column-40 league-column">
-                    <div class="first-column">
-                      <span class="time-label">July 18, 02:30</span>
-                    </div>
-                    <div class="middle-column">
+                      <div class="column-60 match-column">
+                        <div class="clubs-wrapper">
+                          <div class="club__item first-club">
+                            <div class="club-name__wrapper">
+                              <p class="club-name text-overflow">Manchester</p>
+                            </div>
+                            <img src="./images/sport-league-1.png" class="club-image" alt="">
+                          </div>
+                          <div class="result-score">vs</div>
+                          <div class="club__item second-club">
+                            <img src="./images/sport-league-2.png" class="club-image" alt="">
+                            <div class="club-name__wrapper">
+                              <p class="club-name text-overflow">United</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="btn-watch">Watch</button>
+                      </div>
+                    </a>
+                    <a class="common-section-match__item">
+                      <div class="column-40 league-column">
+                        <div class="first-column">
+                          <span class="time-label">July 18, 02:30</span>
+                        </div>
+                        <div class="middle-column">
 
-                    </div>
-                    <div class="last-column">
-                      <p class="league-name text-overflow">Premier League Manchester CityManchester CityManchester City
-                      </p>
-                    </div>
-                  </div>
-                  <div class="column-60 match-column">
-                    <div class="clubs-wrapper">
-                      <div class="club__item first-club">
-                        <div class="club-name__wrapper">
-                          <p class="club-name text-overflow">Manchester </p>
                         </div>
-                        <img src="./images/sport-league-1.png" class="club-image" alt="">
-                      </div>
-                      <div class="result-score">vs</div>
-                      <div class="club__item second-club">
-                        <img src="./images/sport-league-2.png" class="club-image" alt="">
-                        <div class="club-name__wrapper">
-                          <p class="club-name text-overflow">United Manchester City Manchester City Manchester City
-                            Manchester City Manchester City</p>
+                        <div class="last-column">
+                          <p class="league-name text-overflow">Premier League Manchester CityManchester CityManchester
+                            City
+                          </p>
                         </div>
                       </div>
-                    </div>
-                    <button class="btn-watch">Watch</button>
+                      <div class="column-60 match-column">
+                        <div class="clubs-wrapper">
+                          <div class="club__item first-club">
+                            <div class="club-name__wrapper">
+                              <p class="club-name text-overflow">Manchester </p>
+                            </div>
+                            <img src="./images/sport-league-1.png" class="club-image" alt="">
+                          </div>
+                          <div class="result-score">vs</div>
+                          <div class="club__item second-club">
+                            <img src="./images/sport-league-2.png" class="club-image" alt="">
+                            <div class="club-name__wrapper">
+                              <p class="club-name text-overflow">United Manchester City Manchester City Manchester City
+                                Manchester City Manchester City</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="btn-watch">Watch</button>
+                      </div>
+                    </a>
                   </div>
-                </a>
-									</div>
-								</section>
-								<!--  MATCH FILTER BY TIME -->
+                </section>
+                <!--  MATCH FILTER BY TIME -->
+                <!--  MATCH FILTER BY TIME -->
+                <section class="section-match-by-time">
+                  <div class="section-match-by-time__header-time">
+                    <span class="time-label">Sunday, 16/07</span>
+                  </div>
+
+                  <div class="section-match-by-time__list-match">
+                    <a class="common-section-match__item">
+                      <div class="column-40 league-column">
+                        <div class="first-column">
+                          <span class="time-label">July 18, 02:30</span>
+                        </div>
+                        <div class="middle-column">
+
+                        </div>
+                        <div class="last-column">
+                          <p class="league-name text-overflow">Premier League nguyen dang khoa</p>
+                        </div>
+                      </div>
+                      <div class="column-60 match-column">
+                        <div class="clubs-wrapper">
+                          <div class="club__item first-club">
+                            <div class="club-name__wrapper">
+                              <p class="club-name text-overflow">Manchester United United nguyen dang khoa nguye United
+                                nguyen dang khoa nguye</p>
+                            </div>
+                            <img src="./images/sport-league-1.png" class="club-image" alt="">
+                          </div>
+                          <div class="result-score">vs</div>
+                          <div class="club__item second-club">
+                            <img src="./images/sport-league-2.png" class="club-image" alt="">
+                            <div class="club-name__wrapper">
+                              <p class="club-name text-overflow">Manchester United nguyen dang khoa nguyen United nguyen
+                                dang khoa nguyen</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="btn-watch">Watch</button>
+                      </div>
+                    </a>
+                    <a class="common-section-match__item">
+                      <div class="column-40 league-column">
+                        <div class="first-column">
+                          <span class="time-label">July 18, 02:30</span>
+                        </div>
+                        <div class="middle-column">
+
+                        </div>
+                        <div class="last-column">
+                          <p class="league-name text-overflow">Premier League </p>
+                        </div>
+                      </div>
+                      <div class="column-60 match-column">
+                        <div class="clubs-wrapper">
+                          <div class="club__item first-club">
+                            <div class="club-name__wrapper">
+                              <p class="club-name text-overflow">Manchester</p>
+                            </div>
+                            <img src="./images/sport-league-1.png" class="club-image" alt="">
+                          </div>
+                          <div class="result-score">vs</div>
+                          <div class="club__item second-club">
+                            <img src="./images/sport-league-2.png" class="club-image" alt="">
+                            <div class="club-name__wrapper">
+                              <p class="club-name text-overflow">Manchester United</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="btn-watch">Watch</button>
+                      </div>
+                    </a>
+                    <a class="common-section-match__item">
+                      <div class="column-40 league-column">
+                        <div class="first-column">
+                          <span class="time-label">July 18, 02:30</span>
+                        </div>
+                        <div class="middle-column">
+
+                        </div>
+                        <div class="last-column">
+                          <p class="league-name text-overflow">Premier League </p>
+                        </div>
+                      </div>
+                      <div class="column-60 match-column">
+                        <div class="clubs-wrapper">
+                          <div class="club__item first-club">
+                            <div class="club-name__wrapper">
+                              <p class="club-name text-overflow">Manchester</p>
+                            </div>
+                            <img src="./images/sport-league-1.png" class="club-image" alt="">
+                          </div>
+                          <div class="result-score">vs</div>
+                          <div class="club__item second-club">
+                            <img src="./images/sport-league-2.png" class="club-image" alt="">
+                            <div class="club-name__wrapper">
+                              <p class="club-name text-overflow">United</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="btn-watch">Watch</button>
+                      </div>
+                    </a>
+                    <a class="common-section-match__item">
+                      <div class="column-40 league-column">
+                        <div class="first-column">
+                          <span class="time-label">July 18, 02:30</span>
+                        </div>
+                        <div class="middle-column">
+
+                        </div>
+                        <div class="last-column">
+                          <p class="league-name text-overflow">Premier League Manchester CityManchester CityManchester
+                            City
+                          </p>
+                        </div>
+                      </div>
+                      <div class="column-60 match-column">
+                        <div class="clubs-wrapper">
+                          <div class="club__item first-club">
+                            <div class="club-name__wrapper">
+                              <p class="club-name text-overflow">Manchester </p>
+                            </div>
+                            <img src="./images/sport-league-1.png" class="club-image" alt="">
+                          </div>
+                          <div class="result-score">vs</div>
+                          <div class="club__item second-club">
+                            <img src="./images/sport-league-2.png" class="club-image" alt="">
+                            <div class="club-name__wrapper">
+                              <p class="club-name text-overflow">United Manchester City Manchester City Manchester City
+                                Manchester City Manchester City</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="btn-watch">Watch</button>
+                      </div>
+                    </a>
+                  </div>
+                </section>
+                <!--  MATCH FILTER BY TIME -->
               </div>
               <div id="tab-fixture" class="tab-match-content">tab2
               </div>
