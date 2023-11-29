@@ -130,6 +130,29 @@
                   </div>
                   <div class="column-60 match-column">
                     <div class="clubs-wrapper">
+                      <p class="match-txt text-overflow">Premier League Premier League Premier League</p>
+                    </div>
+                    <button class="btn-watch">Watch</button>
+                  </div>
+                </a>
+                <a class="common-section-match__item">
+                  <div class="column-40 league-column">
+                    <div class="first-column">
+                      <div class="status-icon">
+                        <iframe
+                          src="https://lottie.host/embed/5290d45d-a6f7-4e7f-8dec-6fd4666e4c3f/VHdTOAPywV.json"></iframe>
+                      </div>
+                      <span class="status-text">live</span>
+                    </div>
+                    <div class="middle-column">
+                      <p class="time-label__content">2nd half 52'</p>
+                    </div>
+                    <div class="last-column">
+                      <p class="league-name text-overflow">Premier League nguyen dang khoa</p>
+                    </div>
+                  </div>
+                  <div class="column-60 match-column">
+                    <div class="clubs-wrapper">
                       <div class="club__item first-club">
                         <div class="club-name__wrapper">
                           <p class="club-name text-overflow">Manchester United United nguyen dang khoa nguye United
@@ -259,7 +282,6 @@
               </div>
             </div>
           </section>
-
           <!-- LIVE MATCH -->
 
           <!--HOT MATCH -->
@@ -286,21 +308,7 @@
                   </div>
                   <div class="column-60 match-column">
                     <div class="clubs-wrapper">
-                      <div class="club__item first-club">
-                        <div class="club-name__wrapper">
-                          <p class="club-name text-overflow">Manchester United United nguyen dang khoa nguye United
-                            nguyen dang khoa nguye</p>
-                        </div>
-                        <img src="./images/sport-league-1.png" class="club-image" alt="">
-                      </div>
-                      <div class="result-score">vs</div>
-                      <div class="club__item second-club">
-                        <img src="./images/sport-league-2.png" class="club-image" alt="">
-                        <div class="club-name__wrapper">
-                          <p class="club-name text-overflow">Manchester United nguyen dang khoa nguyen United nguyen
-                            dang khoa nguyen</p>
-                        </div>
-                      </div>
+                      <p class="match-txt text-overflow">Premier League Premier League Premier League</p>
                     </div>
                     <button class="btn-watch">Watch</button>
                   </div>
@@ -311,7 +319,6 @@
                       <span class="time-label">July 18, 02:30</span>
                     </div>
                     <div class="middle-column">
-
                     </div>
                     <div class="last-column">
                       <p class="league-name text-overflow">Premier</p>

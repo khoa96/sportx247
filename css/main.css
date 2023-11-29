@@ -537,6 +537,13 @@ a {
     max-width: 60px;
   }
 }
+.common-section-match__item .match-column .clubs-wrapper .match-txt {
+  color: #F7FAFC;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 
 .upcoming-and-fixture-match-wrapper {
   display: flex;
