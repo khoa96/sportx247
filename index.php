@@ -314,7 +314,7 @@
 
                     </div>
                     <div class="last-column">
-                      <p class="league-name text-overflow">Premier League </p>
+                      <p class="league-name text-overflow">Premier</p>
                     </div>
                   </div>
                   <div class="column-60 match-column">
@@ -345,7 +345,7 @@
 
                     </div>
                     <div class="last-column">
-                      <p class="league-name text-overflow">Premier League </p>
+                      <p class="league-name text-overflow">ABC</p>
                     </div>
                   </div>
                   <div class="column-60 match-column">
