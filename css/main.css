@@ -337,6 +337,11 @@ a {
   width: 100%;
   max-width: 1052px;
 }
+@media only screen and (max-width: 991px) {
+  .common-section-match__body {
+    max-width: 100%;
+  }
+}
 .common-section-match__item {
   text-decoration: none;
   padding: 10px 0px;
@@ -537,8 +542,14 @@ a {
   display: flex;
   justify-content: center;
   width: 100%;
-  position: absolute;
+  max-width: 1052px;
+  position: relative;
   margin-top: 24px;
+}
+@media only screen and (max-width: 991px) {
+  .upcoming-and-fixture-match-wrapper {
+    max-width: 100%;
+  }
 }
 .upcoming-and-fixture-match-wrapper .dash {
   position: absolute;
@@ -547,6 +558,11 @@ a {
   border: none;
   top: 16px;
   background-color: rgba(255, 255, 255, 0.3);
+}
+@media only screen and (max-width: 991px) {
+  .upcoming-and-fixture-match-wrapper .dash {
+    display: none;
+  }
 }
 .upcoming-and-fixture-match-wrapper .dash-1 {
   left: 0;
@@ -607,7 +623,6 @@ a {
 }
 .upcoming-and-fixture-match-wrapper .tab-match-content {
   width: 100%;
-  border: 1px solid red;
 }
 
 .section-match-by-time {
@@ -615,6 +630,9 @@ a {
 }
 .section-match-by-time__list-match {
   padding: 0px 16px 16px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: none;
+  border-radius: 0px 0px 10px 10px;
 }
 @media only screen and (max-width: 991px) {
   .section-match-by-time__list-match {
@@ -639,7 +657,7 @@ a {
   top: 0px;
   right: -10px;
   width: 20px;
-  height: 43px;
+  height: 42px;
   display: block;
   transform: skew(20deg);
   background: #F53434;
@@ -647,7 +665,7 @@ a {
 }
 @media only screen and (max-width: 991px) {
   .section-match-by-time__header-time::before {
-    height: 34px;
+    height: 35px;
   }
 }
 .section-match-by-time__header-time .time-label {

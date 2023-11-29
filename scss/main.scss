@@ -329,6 +329,10 @@ a {
   &__body {
     width: 100%;
     max-width: 1052px;
+
+    @include mq(max_md) {
+      max-width: 100%;
+    }
   }
 
   &_list {
@@ -551,8 +555,15 @@ a {
   display: flex;
   justify-content: center;
   width: 100%;
-  position: absolute;
+  max-width: 1052px;
+
+  position: relative;
   margin-top: 24px;
+  @include mq(max_md) {
+    max-width: 100%;
+  }
+
+
 
   .dash {
     position: absolute;
@@ -561,6 +572,10 @@ a {
     border: none;
     top: 16px;
     background-color: rgba(255, 255, 255, 0.3);
+
+    @include mq(max_md) {
+      display: none;
+    }
   }
 
   .dash-1 {
@@ -632,7 +647,6 @@ a {
 
   .tab-match-content {
     width: 100%;
-    border: 1px solid red;
   }
 }
 
@@ -640,9 +654,11 @@ a {
 .section-match-by-time {
   margin-bottom: 24px;
 
-
   &__list-match {
     padding: 0px 16px 16px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: none;
+    border-radius: 0px 0px 10px 10px;
 
     @include mq(max_md) {
       padding: 0px 8px 8px 8px;
@@ -666,13 +682,13 @@ a {
       top: 0px;
       right: -10px;
       width: 20px;
-      height: 43px;
+      height: 42px;
       display: block;
       transform: skew(20deg);
       background: #F53434;
       border-bottom: 1px solid #F53434;
       @include mq(max_md) {
-        height: 34px;
+        height: 35px;
       }
     }
 
