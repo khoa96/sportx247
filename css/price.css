@@ -1,0 +1,892 @@
+.pricing-page__container {
+  background-color: #111;
+  position: relative;
+  height: auto;
+  color: #fff;
+}
+.pricing-page__detail {
+  background-color: #111;
+  position: relative;
+  height: auto;
+  padding: 36px 0px;
+}
+.pricing-page__detail::before {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 765px;
+  background-image: url("../images/mask-background.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__detail::before {
+    display: none;
+  }
+}
+.pricing-page__header {
+  margin-bottom: 24px;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__header {
+    margin-bottom: 16px;
+  }
+}
+.pricing-page__primary-title {
+  color: #fff;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__primary-title {
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+.pricing-page__common-title-block {
+  display: flex;
+  align-items: center;
+}
+.pricing-page__step-number {
+  min-width: 36px;
+  max-width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__step-number {
+    margin-right: 12px;
+  }
+}
+.pricing-page__secondary-title {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__secondary-title {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+.pricing-page__list-package-wrapper {
+  padding: 55px 0px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid #333;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__list-package-wrapper {
+    padding: 20px 0px;
+    border-bottom: none;
+  }
+}
+.pricing-page__list-package {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 1300px) {
+  .pricing-page__list-package {
+    justify-content: flex-start;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .pricing-page__list-package {
+    justify-content: center;
+  }
+}
+.pricing-page__list-package .list-package__item {
+  max-width: 282px;
+  margin-right: 12px;
+  background-color: #222;
+  padding: 24px;
+  height: fit-content;
+  position: relative;
+}
+.pricing-page__list-package .list-package__item:last-child {
+  margin-right: 0;
+}
+@media (max-width: 1350px) {
+  .pricing-page__list-package .list-package__item {
+    padding: 12px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__list-package .list-package__item {
+    min-width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+    padding: 8px 20px 16px 20px;
+    margin-bottom: 24px;
+  }
+}
+.pricing-page__list-package .list-package__item .check-label-wrapper {
+  display: none;
+}
+.pricing-page__list-package .list-package__item.active {
+  border: 1px solid #e92828;
+}
+.pricing-page__list-package .list-package__item.active .check-label-wrapper {
+  display: block;
+}
+.pricing-page__list-package .list-package__item:hover {
+  border: 1px solid #e92828;
+}
+.pricing-page__list-package .list-package__item.special-package {
+  padding-bottom: 48px;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__list-package .list-package__item.special-package {
+    padding-bottom: 16px;
+    margin: 12px 0px;
+  }
+}
+.pricing-page__list-package .package-item__spacial-header {
+  position: absolute;
+  left: 0;
+  bottom: 100%;
+  width: 100%;
+  height: max-content;
+  background: #e92828;
+  width: 100%;
+  padding: 4px 0px;
+  text-align: center;
+  color: #f7fafc;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.1px;
+}
+.pricing-page__list-package .package-item__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__list-package .package-item__header {
+    margin-bottom: 8px;
+  }
+}
+.pricing-page__list-package .package-item__header .highlight {
+  color: #ffb800;
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 4px;
+}
+.pricing-page__list-package .package-item__header .month-label {
+  color: var(--gray-100, #f7fafc);
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+@media (max-width: 1300px) {
+  .pricing-page__list-package .package-item__header .month-label {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__list-package .package-item__header .month-label {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+.pricing-page__list-package .package-item__header .check-label-wrapper {
+  min-width: 22px;
+  max-width: 22px;
+  height: 22px;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__list-package .package-item__header .check-label-wrapper {
+    display: none !important;
+  }
+}
+.pricing-page__list-package .package-item__header .check-label-wrapper img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.pricing-page__list-package .package-item__middle {
+  display: flex;
+  align-items: center;
+}
+.pricing-page__list-package .package-item__middle .prev-price {
+  color: var(--gray-400, #cbd5e0);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: line-through;
+  margin-right: 16px;
+}
+@media (max-width: 1350px) {
+  .pricing-page__list-package .package-item__middle .prev-price {
+    font-size: 16px;
+  }
+}
+.pricing-page__list-package .package-item__middle .save-label {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+@media (max-width: 1350px) {
+  .pricing-page__list-package .package-item__middle .save-label {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__list-package .package-item__middle .save-label {
+    color: #f53434;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 2px 10px;
+    border: 1px solid #f53434;
+    position: absolute;
+    border-radius: 20px;
+    border: 1px solid #f53434;
+    top: 12px;
+    right: 30px;
+  }
+}
+.pricing-page__list-package .package-item__footer {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__list-package .package-item__footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.pricing-page__list-package .package-item__footer .btn-get-plan {
+  width: 100%;
+  padding: 10px 0px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+@media (max-width: 1300px) {
+  .pricing-page__list-package .package-item__footer .btn-get-plan {
+    font-size: 14px;
+    padding: 8px 0px;
+  }
+}
+.pricing-page__list-package .package-item__footer .btn-get-plan:focus {
+  outline: none;
+  color: #fff;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__list-package .package-item__footer .btn-get-plan {
+    width: fit-content;
+    padding: 10px 24px;
+  }
+}
+.pricing-page__list-package .package-item__footer .btn-default {
+  background-color: #444;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__list-package .package-item__footer .btn-default {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+.pricing-page__list-package .package-item__footer .btn-active {
+  background: linear-gradient(107deg, #002672 0%, #f53434 100%);
+}
+.pricing-page__list-package .package-item__footer .text-for-pc {
+  display: block;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__list-package .package-item__footer .text-for-pc {
+    display: none;
+  }
+}
+.pricing-page__list-package .package-item__footer .text-for-mb {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__list-package .package-item__footer .text-for-mb {
+    display: block;
+  }
+}
+.pricing-page__list-package .package-item__primary-price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__list-package .package-item__primary-price {
+    margin-bottom: 0;
+  }
+}
+.pricing-page__list-package .package-item__primary-price .sign-dollar {
+  color: #f53434;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 4px;
+}
+.pricing-page__list-package .package-item__primary-price .primary-price {
+  color: #f53434;
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 6px;
+}
+@media (max-width: 1300px) {
+  .pricing-page__list-package .package-item__primary-price .primary-price {
+    color: #f53434;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+.pricing-page__list-package .package-item__primary-price .sign-month {
+  color: var(--gray-100, #f7fafc);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.pricing-page__list-package .package-item__list-feature {
+  margin-top: 32px;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__list-package .package-item__list-feature {
+    margin-top: 12px;
+  }
+}
+.pricing-page__list-package .package-item__list-feature .list-feature__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+}
+.pricing-page__list-package .package-item__list-feature .icon-check {
+  min-width: 12px;
+  max-width: 12px;
+  height: 12px;
+  object-fit: cover;
+  margin-right: 8px;
+}
+.pricing-page__list-package .package-item__list-feature .feature-text {
+  color: var(--gray-400, #cbd5e0);
+  font-family: Poppins;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 175px;
+}
+.pricing-page__package-description {
+  margin-top: 32px;
+}
+.pricing-page__package-description .text {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__package-description {
+    display: none;
+  }
+}
+.pricing-page__method-payment {
+  padding: 16px 0px;
+}
+.pricing-page__method-content {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__method-content {
+    flex-direction: column;
+  }
+}
+.pricing-page__method-content-left {
+  flex-grow: 1;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__method-content-left {
+    width: 100%;
+  }
+}
+.pricing-page__method-content-right {
+  min-width: 385px;
+  max-width: 385px;
+  min-height: max-content;
+  margin-left: 24px;
+  padding: 16px;
+  background-image: url("../images/mask-football-background.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__method-content-right {
+    min-width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-top: 24px;
+    padding: 8px;
+  }
+}
+.pricing-page__method-content-right .vip-benefit-title {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__method-content-right .vip-benefit-title {
+    font-size: 14px;
+  }
+}
+.pricing-page__method-content-right .list-benefit__item {
+  width: 100%;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  padding: 24px 16px;
+  background: rgba(255, 255, 255, 0.05);
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__method-content-right .list-benefit__item {
+    padding: 16px 12px;
+  }
+}
+.pricing-page__method-content-right .list-benefit__item:last-child {
+  margin-bottom: 0;
+}
+.pricing-page__method-content-right .list-benefit__item .icon-benefit {
+  min-width: 24px;
+  max-width: 24px;
+  height: 24px;
+  object-fit: cover;
+  margin-right: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__method-content-right .list-benefit__item .icon-benefit {
+    margin-right: 8px;
+  }
+}
+.pricing-page__method-content-right .list-benefit__item .text-benefit-description {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__method-content-right .list-benefit__item .text-benefit-description {
+    font-size: 14px;
+  }
+}
+.pricing-page__method-content-right .list-benefit__item.active .text-benefit-description {
+  font-weight: 600;
+  color: #f53434 !important;
+}
+.pricing-page__list-method-payment {
+  width: 100%;
+  height: fit-content;
+}
+.pricing-page__list-method-payment .list-method-payment__item {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  height: fit-content;
+  padding: 20px 16px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.pricing-page__list-method-payment .list-method-payment__item:last-child {
+  margin-bottom: 0;
+}
+.pricing-page__list-method-payment .list-method-payment__item .control-selected {
+  position: relative;
+  min-width: 24px;
+  max-width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+.pricing-page__list-method-payment .list-method-payment__item .control-selected .icon-unchecked {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.pricing-page__list-method-payment .list-method-payment__item .control-selected .icon-checked {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.pricing-page__list-method-payment .list-method-payment__item.selected, .pricing-page__list-method-payment .list-method-payment__item:hover {
+  border: 1px solid #f53434;
+  cursor: pointer;
+  background: rgba(245, 52, 52, 0.05);
+}
+.pricing-page__list-method-payment .list-method-payment__item.selected .control-selected .icon-checked {
+  display: block;
+}
+.pricing-page__list-method-payment .list-method-payment__item .method-payment__info-detail {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__list-method-payment .list-method-payment__item .method-payment__info-detail {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+.pricing-page__list-method-payment .list-method-payment__item .method-payment__info-detail .middle-info {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__list-method-payment .list-method-payment__item .method-payment__info-detail .middle-info {
+    margin-bottom: 6px;
+    margin-right: 0;
+  }
+}
+.pricing-page__list-method-payment .list-method-payment__item .method-payment__info-detail .method-name {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__list-method-payment .list-method-payment__item .method-payment__info-detail .method-name {
+    font-size: 14px;
+    margin-right: 0;
+    margin-bottom: 6px;
+  }
+}
+.pricing-page__list-method-payment .list-method-payment__item .method-payment__info-detail .recommend-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 3px 8px;
+  border-radius: 8px;
+  background: var(--fdc-400, #fdc400);
+  margin-right: 6px;
+}
+.pricing-page__list-method-payment .list-method-payment__item .method-payment__info-detail .recommend-wrapper .recommend-text {
+  color: #0f172a;
+  margin-left: 4px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.pricing-page__list-method-payment .list-method-payment__item .method-payment__info-detail .label-discount {
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 3px 8px;
+  border-radius: 8px;
+  background: #f53434;
+}
+.pricing-page__list-method-payment .list-method-payment__item .method-payment__info-detail .payment-type__list {
+  display: flex;
+  align-items: center;
+}
+.pricing-page__list-method-payment .list-method-payment__item .method-payment__info-detail .payment-type__list .payment-type__item {
+  width: fit-content;
+  margin-right: 4px;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 1px 10px;
+  min-width: 40px;
+  background-color: #fff;
+}
+.pricing-page__list-method-payment .list-method-payment__item .method-payment__info-detail .payment-type__list .payment-type__item:last-child {
+  margin-right: 0;
+}
+.pricing-page__list-method-payment .list-method-payment__item .method-payment__info-detail .payment-type__list .payment-type__item .type-image {
+  object-fit: cover;
+}
+.pricing-page__list-method-payment .list-method-payment__item .method-payment__info-detail .payment-type__list .payment-type__item .credit-method {
+  width: 21.667px;
+  height: 18.333px;
+  flex-shrink: 0;
+}
+.pricing-page__list-method-payment .list-method-payment__item .method-payment__info-detail .payment-type__list .payment-type__item .viva-method {
+  width: 30.843px;
+  height: 10px;
+  flex-shrink: 0;
+}
+.pricing-page__list-method-payment .list-method-payment__item .method-payment__info-detail .payment-type__list .payment-type__item .jcb-method {
+  width: 18.333px;
+  height: 18.333px;
+  flex-shrink: 0;
+}
+.pricing-page__list-method-payment .list-method-payment__item .method-payment__info-detail .payment-type__list .payment-type__item .union-method {
+  width: 21.333px;
+  height: 13.333px;
+  flex-shrink: 0;
+}
+.pricing-page__list-method-payment .list-method-payment__item .method-payment__info-detail .payment-type__list .payment-type__item .icon-16 {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.pricing-page__statical-method {
+  padding: 24px;
+  border: 1px solid #383838;
+  background: #222;
+  width: 100%;
+  display: flex;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__statical-method {
+    border: none;
+    padding: 0;
+    margin: 16px 0px;
+    padding: 0px 10px;
+    background-color: transparent;
+  }
+}
+.pricing-page__statical-method .column-50 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__statical-method .right-column {
+    display: none;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__statical-method .left-column {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__statical-method {
+    padding: 0;
+  }
+}
+.pricing-page__statical-method .money-back-image {
+  width: 150px;
+  height: 158.789px;
+  flex-shrink: 0;
+}
+.pricing-page__statical-method .statical__row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 0px;
+  border-bottom: 1px solid #383838;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__statical-method .statical__row {
+    font-size: 15px;
+    padding: 16px 4px;
+  }
+}
+.pricing-page__statical-method .statical__value {
+  display: flex;
+  align-items: center;
+  color: var(--ffffff, #fff);
+  text-align: right;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__statical-method .statical__value {
+    font-size: 15px;
+  }
+}
+.pricing-page__statical-method .text-line-through {
+  color: var(--gray-600, #718096);
+  text-align: right;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: line-through;
+  margin-right: 8px;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__statical-method .text-line-through {
+    font-size: 15px;
+  }
+}
+.pricing-page__statical-method .text-total {
+  color: #f53434;
+  text-align: right;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.pricing-page__register-form {
+  margin-top: 24px;
+  width: 100%;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__register-form {
+    margin-top: 16px;
+  }
+}
+.pricing-page__register-form .register-form__header {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__register-form .register-form__header {
+    flex-direction: column;
+  }
+}
+.pricing-page__register-form .register-form__header .form-group-item {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.pricing-page__register-form .register-form__header .form-group-item:first-child {
+  margin-right: 24px;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__register-form .register-form__header .form-group-item:first-child {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__register-form .register-form__header .form-group-item {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+}
+.pricing-page__register-form .register-form__header .form-group-item label {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+.pricing-page__register-form .register-form__header .form-group-item input {
+  display: block;
+  width: 100%;
+  outline: none;
+  padding: 10px 16px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.05);
+  outline: none;
+}
+.pricing-page__register-form .register-form__header .form-group-item input:focus {
+  outline: none;
+}
+.pricing-page__register-form .register-form__header .form-group-item input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/*# sourceMappingURL=price.css.map */
