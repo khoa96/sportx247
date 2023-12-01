@@ -811,6 +811,18 @@
         padding: 16px 4px;
       }
     }
+    .link-coupon-code {
+      margin-top: 14px;
+      color: #F53434;
+      font-family: Poppins;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-align: left;
+      width: 100%;
+      display: block;
+    }
 
     .statical__value {
       display: flex;
@@ -927,9 +939,105 @@
       }
 
       &__middle {
+        margin: 16px 0px 24px;
+        display: flex;
+        align-items: center;
+
+
+        .sign-up-viva-title {
+          color: #FFF;
+          font-family: Poppins;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          margin-right: 12px;
+          line-height: normal;
+        }
+
+        .list-register-with-viva {
+          display: flex;
+          align-items: center;
+
+          .link-item {
+            display: block;
+            width: fit-content;
+            height: fit-content;
+            margin-right: 12px;
+
+            &:last-child {
+              margin-right: 0;
+            }
+
+            .viva-image {
+              min-width: 32px;
+              max-width: 32px;
+              height: 32px;
+              border-radius: 50%;
+              object-fit: cover;
+            }
+          }
+        }
       }
 
       &__footer {
+        margin-bottom: 20px;;
+
+        .btn-payment-now {
+          min-width: 336px;
+          text-align: center;
+          padding: 14px 0px;
+          color: var(--ffffff, #FFF);
+          text-align: right;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          margin-bottom: 20px;
+          text-align: center;
+          display: inline-flex;
+          justify-content: center;
+          text-decoration: none;
+          background: linear-gradient(107deg, #002672 0%, #F53434 100%);
+
+          @include mq(max_md) {
+            display: block;
+            min-width: 100%;
+            max-width: 100%;
+            font-size: 14px;
+          }
+        }
+
+
+        .privacy-and-terms-block {
+          @include mq(max_md) {
+            display: flex;
+            justify-content: center;
+          }
+          &__text {
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+            @include mq(max_md) {
+              text-align: center;
+              max-width:  270px;
+            }
+          }
+
+          &__link {
+            color: #F53434;
+            font-family: Poppins;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+
+        }
       }
     }
   }

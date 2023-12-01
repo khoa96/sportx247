@@ -3,7 +3,7 @@
     <div class="footer__content">
       <div class="footer__header">
         <a href="#">
-          <img src="./images/logo-footer.png" class="footer__logo" alt="">
+          <img src="./images/header-logo.png" class="footer__logo" alt="">
         </a>
         <a href="#" class="footer__privacy privacy-for-pc-only">
           Privacy Policy

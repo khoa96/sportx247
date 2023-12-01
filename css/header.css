@@ -98,13 +98,21 @@ p {
   left: 0;
   width: 100%;
   z-index: 9999;
+  height: 72px;
+  padding-left: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-image: url("../images/header-background-image-pc.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 @media only screen and (max-width: 991px) {
   .header {
     display: block;
+    height: 44px;
+    padding-left: 16px;
+    padding-top: 8px;
   }
 }
 
@@ -250,18 +258,18 @@ p {
   display: block;
   float: left;
   width: fit-content;
-  height: 72px;
   text-decoration: none;
-}
-@media only screen and (max-width: 991px) {
-  .header .logo {
-    height: 44px;
-  }
+  position: relative;
 }
 .header .logo img {
-  display: block;
-  height: 100%;
+  width: 220px;
   object-fit: cover;
+  flex-shrink: 0;
+}
+@media only screen and (max-width: 991px) {
+  .header .logo img {
+    width: 174px;
+  }
 }
 
 /* nav */
@@ -408,3 +416,5 @@ p {
   margin: 0;
   padding: 0;
 }
+
+/*# sourceMappingURL=header.css.map */

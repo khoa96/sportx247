@@ -1,6 +1,6 @@
 <header class="header">
   <a href="#" class="logo">
-    <img src="./images/header-logo.png" alt="">
+    <img src="./images/header-logo.png" class="logo" alt="">
   </a>
   <input class="nav-btn" type="checkbox" id="nav-btn" />
   <label class="nav-icon" for="nav-btn">

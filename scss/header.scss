@@ -61,12 +61,20 @@ p {
   left: 0;
   width: 100%;
   z-index: 9999;
+  height: 72px;
+  padding-left: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-image: url('../images/header-background-image-pc.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 
   @include mq(max_md) {
     display: block;
+    height: 44px;
+    padding-left: 16px;
+    padding-top: 8px;
   }
 }
 
@@ -214,16 +222,41 @@ p {
   display: block;
   float: left;
   width: fit-content;
-  height: 72px;
   text-decoration: none;
+  position: relative;
 
-  @include mq(max_md) {
-    height: 44px;
-  }
+  // &::before {
+  //  content: "";
+  //   position: absolute;
+  //   top: 0px;
+  //   right: -50px;
+  //   width: 100px;
+  //   height: 100%;
+  //   display: block;
+  //   transform: skew(-45deg);
+  //   background: #002672;
+  //   z-index: -1;
+
+  //   @include mq(max_md) {
+  //     position: absolute;
+  //     top: 0px;
+  //     right: -25px;
+  //     width: 50px;
+  //     height: 100%;
+  //     display: block;
+  //     transform: skew(-45deg);
+  //     background: #002672;
+  //     z-index: -1;
+  //   }
+  // }
   img {
-    display: block;
-    height: 100%;
+    width: 220px;
     object-fit: cover;
+    flex-shrink: 0;
+
+    @include mq(max_md) {
+      width: 174px;
+    }
   }
 }
 

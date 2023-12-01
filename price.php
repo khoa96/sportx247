@@ -330,6 +330,7 @@
                       <span class="text-total">$21</sparen>
                     </div>
                   </div>
+                  <a href="#" target="" title="" class="link-coupon-code">Have coupon code?</a>
                 </div>
                 <div class="column-50 right-column">
                   <img src="./images/money-back-image.png" class="money-back-image" alt="">
@@ -350,8 +351,26 @@
                     <input type="password" name="" value="" placeholder="Enter password" class="input">
                   </div>
                 </div>
-                <div class="register-form__middle"></div>
-                <div class="register-form__footer"></div>
+                <div class="register-form__middle">
+                  <h4 class="sign-up-viva-title">Sign up via</h4>
+                  <div class="list-register-with-viva">
+                    <a href="#" target="" title="" class="link-item">
+                      <img src="./images/icon-facebook.png" class="viva-image" alt="" />
+                    </a>
+                     <a href="#" target="" title="" class="link-item">
+                      <img src="./images/icon-google.png" class="viva-image" alt="" />
+                    </a>
+                     <a href="#" target="" title="" class="link-item">
+                      <img src="./images/icon-apple.png" class="viva-image"  alt="" />
+                    </a>
+                  </div>
+                </div>
+                <div class="register-form__footer">
+                  <a href="#" class="btn-payment-now">Payment Now</a>
+                  <div class="privacy-and-terms-block">
+                    <p class="privacy-and-terms-block__text">By proceeding, you agree to our <a href="#" class="privacy-and-terms-block__link">Terms of Service</a> and <a href="#" class="privacy-and-terms-block__link">Privacy Policy.</a></p>
+                  </div>
+                </div>
               </div>
               <!-- END REGISTER FORM -->
 
