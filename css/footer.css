@@ -170,7 +170,7 @@
   }
 }
 .footer__copy-right-text {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-size: 14px;
   font-style: normal;
@@ -190,6 +190,172 @@
   .footer__copy-right .ssl-image {
     position: unset;
   }
+}
+
+.price-page__footer {
+  margin-top: 32px;
+  display: flex;
+}
+@media only screen and (max-width: 991px) {
+  .price-page__footer {
+    margin-top: 12px;
+    flex-direction: column;
+  }
+}
+.price-page__footer-left {
+  max-width: 215px;
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+  margin-right: 48px;
+}
+@media only screen and (max-width: 991px) {
+  .price-page__footer-left {
+    max-width: 100%;
+    margin-right: 0;
+  }
+}
+.price-page__footer-email {
+  margin: 12px 0px;
+}
+@media only screen and (max-width: 991px) {
+  .price-page__footer-email {
+    margin: 8px 0px;
+  }
+}
+.price-page__footer-copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+@media only screen and (max-width: 991px) {
+  .price-page__footer-copyright {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.price-page__footer-copyright .text-copyright {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 991px) {
+  .price-page__footer-copyright .text-copyright {
+    margin-bottom: 0;
+  }
+}
+.price-page__footer-copyright .ssl-image {
+  width: 115px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.price-page__footer-right {
+  flex-grow: 1;
+}
+.price-page__footer-right .footer-for-pc {
+  width: 100%;
+  display: flex;
+}
+@media only screen and (max-width: 991px) {
+  .price-page__footer-right .footer-for-pc {
+    display: none;
+  }
+}
+.price-page__footer-right .footer-for-pc .column {
+  width: 25%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.price-page__footer-right .footer-for-pc .column__title {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+.price-page__footer-right .footer-for-pc .footer__sub-nav .footer__sub-nav-item {
+  margin-bottom: 6px;
+}
+.price-page__footer-right .footer-for-pc .footer__sub-nav .footer__sub-nav-item:last-child {
+  margin-bottom: 0;
+}
+.price-page__footer-right .footer-for-pc .footer__sub-nav .footer__sub-nav-item a {
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+}
+.price-page__footer-right .footer-for-pc .footer__sub-nav .footer__sub-nav-item a:hover {
+  color: var(--f-1516-e, #F1516E);
+}
+.price-page__footer-right .footer-for-pc .footer__sub-nav .learn-more a {
+  color: var(--f-1516-e, #F1516E);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+}
+.price-page__footer-right .footer-for-mobile {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .price-page__footer-right .footer-for-mobile {
+    display: block;
+  }
+}
+.price-page__footer-right .footer-for-mobile .sub-footer-for-mb {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+.price-page__footer-right .footer-for-mobile .sub-footer-for-mb .sub-footer-for-mb__item a {
+  color: var(--3-ac-5-c-9, #3AC5C9);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  display: block;
+  width: fit-content;
+}
+.price-page__footer-right .footer-for-mobile .upcoming-league__title {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  margin-bottom: 12px;
+}
+.price-page__footer-right .footer-for-mobile .list-upcoming-league {
+  display: flex;
+  flex-wrap: wrap;
+}
+.price-page__footer-right .footer-for-mobile .list-upcoming-league .list-upcoming-league__item a {
+  color: #FFF;
+  font-size: 12px;
+  display: block;
+  max-width: fit-content;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+.price-page__footer-right .footer-for-mobile .list-upcoming-league .list-upcoming-league__item a:hover {
+  color: var(--3-ac-5-c-9, #3AC5C9);
 }
 
 /*# sourceMappingURL=footer.css.map */

@@ -561,7 +561,7 @@
     <!-- START: TOP RATED LIVESTREAMING SERVICE -->
   </div>
 
-  <?php include "templates/footer.php"; ?>
+  <?php include "templates/footer2.php"; ?>
 </body>
 
 </html>
