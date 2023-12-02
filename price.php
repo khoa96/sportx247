@@ -517,7 +517,8 @@
         <div class="livestreaming-service__money-back">
           <img src="./images/money-back-image.png" class="money-back__image" alt="">
           <h3 class="money-back__title">7-day money-back guarantee</h3>
-          <p class="money-back__description">Take your time to enjoy our sports livestreaming service completely risk-free.</p>
+          <p class="money-back__description">Take your time to enjoy our sports livestreaming service completely
+            risk-free.</p>
         </div>
         <!-- 7 day money back for mobile -->
         <!-- 7 day money back for mobile -->
@@ -561,7 +562,52 @@
     <!-- START: TOP RATED LIVESTREAMING SERVICE -->
   </div>
 
+  <div class="price-popup">
+    <div class="price-popup__body">
+      <div class="price-popup__close">
+        <img src="./images/icon-close.png" class="icon-close" alt="">
+      </div>
+      <div class="price-popup-content">
+        <span class="price-popup-title">Wait! We have a secret deal for you</span>
+        <span class="price-popup-description">GRAB THIS SPECIAL OFFER</span>
+        <div class="price-popup-content__description">
+          <span class="month-1">24 MONTHS</span>
+          <div class="month-2">
+            <span class="text-green">+ 6 MONTHS</span>
+            <div class="shadow green-shadown"></div>
+          </div>
+        </div>
+        <div class="price-popup-content__description">
+          <span class="month-1">For just</span>
+          <div class="month-2">
+            <span class="text-red">$4.8/month</span>
+            <div class="shadow red-shadown"></div>
+          </div>
+        </div>
+        <button class="btn-grap">Grab the deal</button>
+        <div class="popup-timer-countdown">
+          <span class="label">The match will start in</span>
+          <div class="list-time">
+            <div class="time-item-wrapper">
+              <span class="time" id="popup-price-time-hour"></span>
+              <span class="label">Hour</span>
+            </div>
+            <div class="time-item-wrapper">
+              <span class="time" id="popup-price-time-minute"></span>
+              <span class="label">Minute</span>
+            </div>
+            <div class="time-item-wrapper">
+              <span class="time" id="popup-price-time-second"></span>
+              <span class="label">Second</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <?php include "templates/footer2.php"; ?>
+  <script src="./js/popup.js"></script>
 </body>
 
 </html>

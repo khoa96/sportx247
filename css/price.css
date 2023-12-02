@@ -1355,4 +1355,282 @@
   }
 }
 
+.price-popup {
+  position: fixed;
+  z-index: -100;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.price-popup__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 991px) {
+  .price-popup__close {
+    top: 8px;
+    right: 8px;
+  }
+}
+.price-popup__close img {
+  min-width: 24px;
+  max-width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+
+.price-popup__body {
+  position: relative;
+  max-width: 670px;
+  min-width: 670px;
+  background: #FFFFFF;
+  border: 10px solid #002672;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0px 65px 0px;
+}
+@media only screen and (max-width: 991px) {
+  .price-popup__body {
+    min-width: 100%;
+    max-width: 100%;
+    border: 5px solid #002672;
+    padding: 30px 0px;
+  }
+}
+
+.price-popup--show {
+  z-index: 100;
+  opacity: 1;
+}
+
+.price-popup-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1A202C;
+}
+
+.price-popup-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.price-popup-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1A202C;
+  display: block;
+  margin: 12px 0px;
+  text-transform: uppercase;
+}
+
+.price-popup-content__description {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  color: #1A202C;
+  margin-bottom: 16px;
+}
+.price-popup-content__description:last-of-type {
+  margin-bottom: 32px;
+}
+@media only screen and (max-width: 991px) {
+  .price-popup-content__description {
+    font-size: 24px;
+    list-style: 32px;
+  }
+}
+.price-popup-content__description .month-1 {
+  color: #1A202C;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 48px; /* 133.333% */
+}
+.price-popup-content__description .month-2 {
+  position: relative;
+  top: 5px;
+  left: 0;
+  margin-left: 16px;
+}
+.price-popup-content__description .shadow {
+  width: 232px;
+  height: 23px;
+  border: none;
+  position: absolute;
+  bottom: 0;
+  right: -5px;
+}
+@media only screen and (max-width: 991px) {
+  .price-popup-content__description .shadow {
+    width: 162px;
+  }
+}
+.price-popup-content__description .text-green {
+  color: #18B745;
+}
+.price-popup-content__description .text-red {
+  color: #E34B31;
+}
+.price-popup-content__description .green-shadown {
+  background: rgba(24, 183, 69, 0.15);
+}
+.price-popup-content__description .red-shadown {
+  background: #E34B31;
+  opacity: 0.15;
+}
+
+.btn-grap {
+  min-width: 215px;
+  max-width: 215px;
+  height: auto;
+  padding: 12px 0px;
+  margin-top: 12px;
+  text-align: center;
+  background: #E34B31;
+  border-radius: 7px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.btn-grap:focus {
+  outline: none;
+}
+.btn-grap:hover {
+  opacity: 0.8;
+}
+
+.popup-timer-countdown {
+  width: 100%;
+  max-width: 375px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 22px;
+  border-top: 1px solid #E2E8F0;
+  padding-top: 12px;
+}
+@media only screen and (max-width: 991px) {
+  .popup-timer-countdown {
+    max-width: 80%;
+  }
+}
+.popup-timer-countdown .label {
+  font-style: normal;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1A202C;
+  display: block;
+  margin-bottom: 12px;
+}
+@media only screen and (max-width: 991px) {
+  .popup-timer-countdown .label {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 8px;
+  }
+}
+.popup-timer-countdown .list-time {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .popup-timer-countdown .list-time {
+    gap: 0px;
+  }
+}
+.popup-timer-countdown .list-time .time-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: max-content;
+  max-width: max-content;
+}
+@media only screen and (max-width: 991px) {
+  .popup-timer-countdown .list-time .time-item-wrapper {
+    min-width: 55px;
+    max-width: 55px;
+  }
+}
+.popup-timer-countdown .list-time .time-item-wrapper .time {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  background: #002672;
+  border-radius: 100px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+@media only screen and (max-width: 991px) {
+  .popup-timer-countdown .list-time .time-item-wrapper .time {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+.popup-timer-countdown .list-time .time-item-wrapper .label {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: center;
+  /* Gray:900 */
+  color: #1A202C;
+}
+@media only screen and (max-width: 991px) {
+  .popup-timer-countdown {
+    margin-top: 24px;
+  }
+}
+
 /*# sourceMappingURL=price.css.map */
