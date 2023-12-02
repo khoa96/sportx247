@@ -4,7 +4,6 @@
   <?php include "templates/header.php"; ?>
   <?php include "templates/subHeader.php"; ?>
 
-  <!-- PRICE PAGE CONTENT -->
   <div class="pricing-page__container">
     <div class="container">
       <div class="pricing-page__detail">
@@ -223,7 +222,15 @@
             <h2 class="pricing-page__secondary-title">Choose your method of payment</h2>
           </section>
 
-
+          <!-- secure checkout chỉ hiển thị với mobile-->
+          <div class="pricing-page__secure-checkout">
+            <img src="./images/icon-secure-checkout.png" class="secure-checkout__icon" alt="">
+            <div class="secure-checkout__detail">
+              <h3 class="secure-checkout__title">Secure checkout</h3>
+              <h3 class="secure-checkout__description">Your payment information is fully protected.</h3>
+            </div>
+          </div>
+          <!-- secure checkout chỉ hiển thị với mobile-->
           <div class="pricing-page__method-content">
             <!-- START METHOD PAYMENT -->
             <article class="pricing-page__method-content-left">
@@ -346,7 +353,7 @@
                     <label for="">Email</label>
                     <input type="text" name="" value="" placeholder="Enter your email" class="input">
                   </div>
-                   <div class="form-group-item">
+                  <div class="form-group-item">
                     <label for="">Password</label>
                     <input type="password" name="" value="" placeholder="Enter password" class="input">
                   </div>
@@ -357,18 +364,25 @@
                     <a href="#" target="" title="" class="link-item">
                       <img src="./images/icon-facebook.png" class="viva-image" alt="" />
                     </a>
-                     <a href="#" target="" title="" class="link-item">
+                    <a href="#" target="" title="" class="link-item">
                       <img src="./images/icon-google.png" class="viva-image" alt="" />
                     </a>
-                     <a href="#" target="" title="" class="link-item">
-                      <img src="./images/icon-apple.png" class="viva-image"  alt="" />
+                    <a href="#" target="" title="" class="link-item">
+                      <img src="./images/icon-apple.png" class="viva-image" alt="" />
                     </a>
                   </div>
                 </div>
                 <div class="register-form__footer">
                   <a href="#" class="btn-payment-now">Payment Now</a>
                   <div class="privacy-and-terms-block">
-                    <p class="privacy-and-terms-block__text">By proceeding, you agree to our <a href="#" class="privacy-and-terms-block__link">Terms of Service</a> and <a href="#" class="privacy-and-terms-block__link">Privacy Policy.</a></p>
+                    <p class="privacy-and-terms-block__text">By proceeding, you agree to our <a href="#"
+                        class="privacy-and-terms-block__link">Terms of Service</a> and <a href="#"
+                        class="privacy-and-terms-block__link">Privacy Policy.</a></p>
+                  </div>
+
+                  <div class="secure-and-encrypted__block">
+                    <img src="./images/icon-lock.png" class="icon-lock" alt="">
+                    <p class="secure-and-encrypted__text">Secure and encrypted payments</p>
                   </div>
                 </div>
               </div>
@@ -416,42 +430,138 @@
               </div>
             </article>
             <!-- END METHOD BENEFIT -->
-
           </div>
-
         </section>
         <!-- START STEP: CHOOSE METHOD PAYMENT-->
-
-
       </div>
     </div>
+
+    <!-- START: SPORT LEAGUE AND TOURNAMENTS -->
+    <section class="pricing-page__tournaments">
+      <div class="container">
+        <div class="tournament-block__content">
+          <div class="tournament-block__header">
+            <h2 class="tournament-block__title">Sports league and tournaments available on SportX247</h2>
+            <p class="tournament-block__description">Your Premium sucription covers all the league and tournament listed
+            </p>
+          </div>
+
+          <div class="tournament-block__list common-scroll-bar">
+            <div class="tournament-block__list-row">
+              <a href="#" class="list-sport__item">
+                <img src="./images/sport-league-1.png" class="list-sport__image" alt="">
+              </a>
+              <a href="#" class="list-sport__item">
+                <img src="./images/sport-league-2.png" class="list-sport__image" alt="">
+              </a>
+              <a href="#" class="list-sport__item">
+                <img src="./images/sport-league-3.png" class="list-sport__image" alt="">
+              </a>
+              <a href="#" class="list-sport__item">
+                <img src="./images/sport-league-4.png" class="list-sport__image" alt="">
+              </a>
+              <a href="#" class="list-sport__item">
+                <img src="./images/sport-league-5.png" class="list-sport__image" alt="">
+              </a>
+              <a href="#" class="list-sport__item">
+                <img src="./images/sport-league-6.png" class="list-sport__image" alt="">
+              </a>
+              <a href="#" class="list-sport__item">
+                <img src="./images/sport-league-7.png" class="list-sport__image" alt="">
+              </a>
+              <a href="#" class="list-sport__item">
+                <img src="./images/sport-league-8.png" class="list-sport__image" alt="">
+              </a>
+              <a href="#" class="list-sport__item">
+                <img src="./images/sport-league-9.png" class="list-sport__image" alt="">
+              </a>
+            </div>
+            <div class="tournament-block__list-row">
+              <a href="#" class="list-sport__item">
+                <img src="./images/sport-league-1.png" class="list-sport__image" alt="">
+              </a>
+              <a href="#" class="list-sport__item">
+                <img src="./images/sport-league-2.png" class="list-sport__image" alt="">
+              </a>
+              <a href="#" class="list-sport__item">
+                <img src="./images/sport-league-3.png" class="list-sport__image" alt="">
+              </a>
+              <a href="#" class="list-sport__item">
+                <img src="./images/sport-league-4.png" class="list-sport__image" alt="">
+              </a>
+              <a href="#" class="list-sport__item">
+                <img src="./images/sport-league-5.png" class="list-sport__image" alt="">
+              </a>
+              <a href="#" class="list-sport__item">
+                <img src="./images/sport-league-6.png" class="list-sport__image" alt="">
+              </a>
+              <a href="#" class="list-sport__item">
+                <img src="./images/sport-league-7.png" class="list-sport__image" alt="">
+              </a>
+              <a href="#" class="list-sport__item">
+                <img src="./images/sport-league-8.png" class="list-sport__image" alt="">
+              </a>
+              <a href="#" class="list-sport__item">
+                <img src="./images/sport-league-9.png" class="list-sport__image" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ENDS: SPORT LEAGUE AND TOURNAMENTS -->
+
+    <!-- START: TOP RATED LIVESTREAMING SERVICE -->
+    <div class="pricing-page__livestreaming-service">
+      <div class="container">
+        <div class="livestreaming-service__money-back">
+          <img src="./images/money-back-image.png" class="money-back__image" alt="">
+          <h3 class="money-back__title">7-day money-back guarantee</h3>
+          <p class="money-back__description">Take your time to enjoy our sports livestreaming service completely risk-free.</p>
+        </div>
+        <!-- 7 day money back for mobile -->
+        <!-- 7 day money back for mobile -->
+        <div class="livestreaming-service__content">
+          <div class="livestreaming-service__left">
+            <div class="livestreaming-service__header-content">
+              <h2 class="livestreaming-service__title">
+                Top-rated sports livestreaming service
+              </h2>
+              <p class="livestreaming-service__description">Real time sports coverage from all around the world -
+                including real time results of the matches in all of the football leagues and competitions</p>
+            </div>
+
+            <div class="livestreaming-service__list-number">
+              <div class="number-item">
+                <h4 class="number-item__title">Countries and territories</h4>
+                <span class="number-item__value">200+</span>
+              </div>
+              <div class="number-item">
+                <h4 class="number-item__title">Leagues and tournaments</h4>
+                <span class="number-item__value">100+</span>
+              </div>
+              <div class="number-item">
+                <h4 class="number-item__title">Dedicated support</h4>
+                <span class="number-item__value">24/7</span>
+              </div>
+              <div class="number-item">
+                <h4 class="number-item__title">Paid users</h4>
+                <span class="number-item__value">100,000+</span>
+              </div>
+            </div>
+          </div>
+          <div class="livestreaming-service__right">
+            <img src="./images/livestreaming-service-image.png" class="livestreaming-service-image" alt="">
+          </div>
+        </div>
+
+        <a href="#" class="btn-get-plan">Get Plan</a>
+      </div>
+    </div>
+    <!-- START: TOP RATED LIVESTREAMING SERVICE -->
   </div>
-  <!-- PRICE PAGE CONTENT -->
 
   <?php include "templates/footer.php"; ?>
-  <script>
-  // Hàm tính toán chiều cao
-  function calculatorWidth() {
-    const listPackageWidth = $('.pricing-page__list-package').width()
-    console.log('listPackageWidth ====', listPackageWidth)
-    var packageCount = $('.list-package__item').length
-    console.log('packageCount =====', packageCount)
-
-    var newWidth = (listPackageWidth - (packageCount - 1) * 12) / packageCount
-    $('.list-package__item').css('width', newWidth + 'px');
-  }
-
-  // Sự kiện khi trang được tải
-  $(document).ready(function() {
-    calculatorWidth();
-
-    // Sự kiện resize cửa sổ
-    $(window).resize(function() {
-      calculatorWidth();
-    });
-  });
-  </script>
-
 </body>
 
 </html>

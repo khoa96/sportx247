@@ -466,6 +466,40 @@
 .pricing-page__method-payment {
   padding: 16px 0px;
 }
+.pricing-page__secure-checkout {
+  display: none;
+  width: 100%;
+  margin-top: 12px;
+  align-items: center;
+}
+.pricing-page__secure-checkout .secure-checkout__icon {
+  min-width: 22px;
+  max-width: 22px;
+  height: 22px;
+  margin-right: 10px;
+}
+.pricing-page__secure-checkout .secure-checkout__title {
+  color: #f53434;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 4px;
+}
+.pricing-page__secure-checkout .secure-checkout__description {
+  color: var(--ffffff, #fff);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__secure-checkout {
+    display: flex;
+  }
+}
 .pricing-page__method-content {
   display: flex;
   align-items: center;
@@ -474,6 +508,7 @@
 @media only screen and (max-width: 991px) {
   .pricing-page__method-content {
     flex-direction: column;
+    margin-top: 12px;
   }
 }
 .pricing-page__method-content-left {
@@ -577,6 +612,12 @@
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__list-method-payment .list-method-payment__item {
+    margin-bottom: 12px;
+    padding: 8px 12px;
+  }
 }
 .pricing-page__list-method-payment .list-method-payment__item:last-child {
   margin-bottom: 0;
@@ -778,7 +819,7 @@
 }
 .pricing-page__statical-method .link-coupon-code {
   margin-top: 14px;
-  color: #F53434;
+  color: #f53434;
   font-family: Poppins;
   font-size: 14px;
   font-style: normal;
@@ -906,7 +947,7 @@
   align-items: center;
 }
 .pricing-page__register-form .register-form__middle .sign-up-viva-title {
-  color: #FFF;
+  color: #fff;
   font-family: Poppins;
   font-size: 14px;
   font-style: normal;
@@ -941,7 +982,7 @@
   min-width: 336px;
   text-align: center;
   padding: 14px 0px;
-  color: var(--ffffff, #FFF);
+  color: var(--ffffff, #fff);
   text-align: right;
   font-family: Poppins;
   font-size: 16px;
@@ -953,7 +994,7 @@
   display: inline-flex;
   justify-content: center;
   text-decoration: none;
-  background: linear-gradient(107deg, #002672 0%, #F53434 100%);
+  background: linear-gradient(107deg, #002672 0%, #f53434 100%);
 }
 @media only screen and (max-width: 991px) {
   .pricing-page__register-form .register-form__footer .btn-payment-now {
@@ -970,7 +1011,7 @@
   }
 }
 .pricing-page__register-form .register-form__footer .privacy-and-terms-block__text {
-  color: #FFF;
+  color: #fff;
   font-family: Poppins;
   font-size: 14px;
   font-style: normal;
@@ -984,12 +1025,334 @@
   }
 }
 .pricing-page__register-form .register-form__footer .privacy-and-terms-block__link {
-  color: #F53434;
+  color: #f53434;
   font-family: Poppins;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.pricing-page__register-form .register-form__footer .secure-and-encrypted__block {
+  margin: 12px 0px;
+  display: none;
+  align-items: center;
+}
+.pricing-page__register-form .register-form__footer .secure-and-encrypted__block .icon-lock {
+  min-width: 16px;
+  max-width: 16px;
+  height: 16px;
+  margin-right: 6px;
+}
+.pricing-page__register-form .register-form__footer .secure-and-encrypted__block .secure-and-encrypted__text {
+  color: var(--gray-600, #718096);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__register-form .register-form__footer .secure-and-encrypted__block {
+    display: flex;
+  }
+}
+.pricing-page__tournaments {
+  width: 100%;
+  padding: 64px 0px;
+  background-color: rgba(0, 38, 114, 0.1);
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__tournaments {
+    padding: 0px 0px 40px 0px;
+  }
+}
+.pricing-page__tournaments .tournament-block__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pricing-page__tournaments .tournament-block__title {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__tournaments .tournament-block__title {
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 8px;
+    max-width: 285px;
+  }
+}
+.pricing-page__tournaments .tournament-block__description {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.pricing-page__tournaments .tournament-block__header {
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__tournaments .tournament-block__header {
+    margin-bottom: 16px;
+  }
+}
+.pricing-page__tournaments .tournament-block__list {
+  width: 100%;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__tournaments .tournament-block__list {
+    max-width: 100%;
+    overflow-x: auto;
+    padding-bottom: 8px;
+  }
+}
+.pricing-page__tournaments .tournament-block__list-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__tournaments .tournament-block__list-row {
+    justify-content: flex-start;
+    margin-bottom: 16px;
+  }
+}
+.pricing-page__tournaments .tournament-block__list-row .list-sport__item {
+  min-width: 80px;
+  max-width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+.pricing-page__tournaments .tournament-block__list-row .list-sport__item:last-child {
+  margin-right: 0;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__tournaments .tournament-block__list-row .list-sport__item {
+    min-width: 70px;
+    max-width: 70px;
+    height: 70px;
+  }
+}
+.pricing-page__tournaments .tournament-block__list-row .list-sport__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.pricing-page__livestreaming-service {
+  width: 100%;
+  background-color: #222;
+  padding: 60px 0px 70px;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__livestreaming-service {
+    padding: 24px 0px 40px;
+  }
+}
+.pricing-page__livestreaming-service .btn-get-plan {
+  display: block;
+  margin: 90px auto 0px;
+  width: fit-content;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 12px 68px;
+  border-radius: 8px;
+  background: #002672;
+  text-decoration: none;
+  border: none;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__livestreaming-service .btn-get-plan {
+    margin: 16px auto 0px;
+    background-color: #3ac5c9;
+  }
+}
+.pricing-page__livestreaming-service .livestreaming-service__money-back {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__livestreaming-service .livestreaming-service__money-back {
+    display: flex;
+  }
+}
+.pricing-page__livestreaming-service .livestreaming-service__money-back .money-back__image {
+  width: 125.063px;
+  height: 146.086px;
+  flex-shrink: 0;
+}
+.pricing-page__livestreaming-service .livestreaming-service__money-back .money-back__title {
+  color: var(--ffffff, #fff);
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 24px 0px 12px;
+}
+.pricing-page__livestreaming-service .livestreaming-service__money-back .money-back__description {
+  color: var(--ffffff, #fff);
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 300px;
+  line-height: 20px; /* 153.846% */
+}
+.pricing-page__livestreaming-service .livestreaming-service__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__livestreaming-service .livestreaming-service__content {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.pricing-page__livestreaming-service .livestreaming-service__left {
+  max-width: 500px;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__livestreaming-service .livestreaming-service__left {
+    max-width: 100%;
+    margin-top: 16px;
+  }
+}
+.pricing-page__livestreaming-service .livestreaming-service__right {
+  width: fit-content;
+}
+.pricing-page__livestreaming-service .livestreaming-service__right .livestreaming-service-image {
+  min-width: 526.003px;
+  max-width: 526.003px;
+  height: 340.037px;
+  flex-shrink: 0;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__livestreaming-service .livestreaming-service__right .livestreaming-service-image {
+    min-width: 100%;
+    max-width: 100%;
+    height: 254px;
+    object-fit: cover;
+  }
+}
+.pricing-page__livestreaming-service .livestreaming-service__header-content {
+  margin-bottom: 24px;
+}
+.pricing-page__livestreaming-service .livestreaming-service__title {
+  color: var(--ffffff, #fff);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__livestreaming-service .livestreaming-service__title {
+    color: var(--ffffff, #fff);
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 12px;
+    max-width: 100%;
+  }
+}
+.pricing-page__livestreaming-service .livestreaming-service__description {
+  color: var(--ffffff, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__livestreaming-service .livestreaming-service__description {
+    color: var(--ffffff, #fff);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 153.846% */
+    max-width: 300px;
+    margin: auto;
+  }
+}
+.pricing-page__livestreaming-service .livestreaming-service__list-number {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.pricing-page__livestreaming-service .livestreaming-service__list-number .number-item {
+  width: 50%;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__livestreaming-service .livestreaming-service__list-number .number-item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.pricing-page__livestreaming-service .livestreaming-service__list-number .number-item__title {
+  color: var(--ffffff, #fff);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__livestreaming-service .livestreaming-service__list-number .number-item__title {
+    font-size: 13px;
+  }
+}
+.pricing-page__livestreaming-service .livestreaming-service__list-number .number-item__value {
+  color: #104fcd;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__livestreaming-service .livestreaming-service__list-number .number-item__value {
+    font-size: 32px;
+    color: #3ac5c9;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .pricing-page__livestreaming-service .livestreaming-service__list-number .number-item:first-child .number-item__title, .pricing-page__livestreaming-service .livestreaming-service__list-number .number-item:nth-child(2) .number-item__title {
+    max-width: 100px;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=price.css.map */
