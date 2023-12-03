@@ -32,20 +32,20 @@ const countdown = (timeString) => {
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Output the result in an element with id="demo"
-    document.getElementById("popup-price-time-hour").innerHTML = String(
+    document.getElementById("countdown-time-hour").innerHTML = String(
       hours
     ).padStart(2, "0");
-    document.getElementById("popup-price-time-minute").innerHTML = String(
+    document.getElementById("countdown-time-minute").innerHTML = String(
       minutes
     ).padStart(2, "0");
-    document.getElementById("popup-price-time-second").innerHTML = String(
+    document.getElementById("countdown-time-second").innerHTML = String(
       seconds
     ).padStart(2, "0");
     if (distance <= 0) {
       clearInterval(x);
-      document.getElementById("popup-price-time-hour").innerHTML = "00";
-      document.getElementById("popup-price-time-minute").innerHTML = "00";
-      document.getElementById("popup-price-time-second").innerHTML = "00";
+      document.getElementById("countdown-time-hour").innerHTML = "00";
+      document.getElementById("countdown-time-minute").innerHTML = "00";
+      document.getElementById("countdown-time-second").innerHTML = "00";
     }
   }, 1000);
 }

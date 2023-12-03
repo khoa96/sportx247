@@ -568,39 +568,39 @@
         <img src="./images/icon-close.png" class="icon-close" alt="">
       </div>
       <div class="price-popup-content">
-        <span class="price-popup-title">Wait! We have a secret deal for you</span>
-        <span class="price-popup-description">GRAB THIS SPECIAL OFFER</span>
-        <div class="price-popup-content__description">
-          <span class="month-1">24 MONTHS</span>
-          <div class="month-2">
-            <span class="text-green">+ 6 MONTHS</span>
-            <div class="shadow green-shadown"></div>
+        <h3 class="price-popup-title">Wait! We have a secret deal for you</h3>
+        <h4 class="price-popup-sub-title">GRAB THIS SPECIAL OFFER</h4>
+        <div class="price-popup-content__detail">
+          <h5 class="prefix_label">24 MONTHS</h5>
+          <div class="shadow-content-wrapper">
+            <span class="success-text">+ 6 MONTHS</span>
+            <div class="box-shadow green-shadow"></div>
           </div>
         </div>
-        <div class="price-popup-content__description">
-          <span class="month-1">For just</span>
-          <div class="month-2">
-            <span class="text-red">$4.8/month</span>
-            <div class="shadow red-shadown"></div>
+        <div class="price-popup-content__detail">
+          <h5 class="prefix_label">For just</h5>
+          <div class="shadow-content-wrapper">
+            <span class="primary-text">$4.8/month</span>
+            <div class="box-shadow red-shadow"></div>
           </div>
         </div>
-        <button class="btn-grap">Grab the deal</button>
-        <div class="popup-timer-countdown">
-          <span class="label">The match will start in</span>
-          <div class="list-time">
-            <div class="time-item-wrapper">
-              <span class="time" id="popup-price-time-hour"></span>
+        <a href="#" title="" target="" class="price-popup-content__btn">Grab the deal</a>
+        <div class="price-popup-content__countdown">
+          <h3 class="countdown__title">Hurry up! Time is running out</h3>
+          <ul class="list__countdown">
+            <li class="list__countdown-item">
+              <span class="time" id="countdown-time-hour"></span>
               <span class="label">Hour</span>
-            </div>
-            <div class="time-item-wrapper">
-              <span class="time" id="popup-price-time-minute"></span>
+            </li>
+            <li class="list__countdown-item">
+              <span class="time" id="countdown-time-minute"></span>
               <span class="label">Minute</span>
-            </div>
-            <div class="time-item-wrapper">
-              <span class="time" id="popup-price-time-second"></span>
+            </li>
+            <li class="list__countdown-item">
+              <span class="time" id="countdown-time-second"></span>
               <span class="label">Second</span>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

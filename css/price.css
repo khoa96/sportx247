@@ -1431,7 +1431,7 @@
   flex-direction: column;
 }
 
-.price-popup-description {
+.price-popup-sub-title {
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -1442,7 +1442,7 @@
   text-transform: uppercase;
 }
 
-.price-popup-content__description {
+.price-popup-content__detail {
   display: flex;
   justify-content: center;
   font-style: italic;
@@ -1454,16 +1454,16 @@
   color: #1A202C;
   margin-bottom: 16px;
 }
-.price-popup-content__description:last-of-type {
+.price-popup-content__detail:last-of-type {
   margin-bottom: 32px;
 }
 @media only screen and (max-width: 991px) {
-  .price-popup-content__description {
+  .price-popup-content__detail {
     font-size: 24px;
     list-style: 32px;
   }
 }
-.price-popup-content__description .month-1 {
+.price-popup-content__detail .prefix_label {
   color: #1A202C;
   text-align: center;
   font-family: Poppins;
@@ -1472,13 +1472,13 @@
   font-weight: 700;
   line-height: 48px; /* 133.333% */
 }
-.price-popup-content__description .month-2 {
+.price-popup-content__detail .shadow-content-wrapper {
   position: relative;
   top: 5px;
   left: 0;
   margin-left: 16px;
 }
-.price-popup-content__description .shadow {
+.price-popup-content__detail .box-shadow {
   width: 232px;
   height: 23px;
   border: none;
@@ -1487,25 +1487,25 @@
   right: -5px;
 }
 @media only screen and (max-width: 991px) {
-  .price-popup-content__description .shadow {
+  .price-popup-content__detail .box-shadow {
     width: 162px;
   }
 }
-.price-popup-content__description .text-green {
+.price-popup-content__detail .success-text {
   color: #18B745;
 }
-.price-popup-content__description .text-red {
+.price-popup-content__detail .primary-text {
   color: #E34B31;
 }
-.price-popup-content__description .green-shadown {
+.price-popup-content__detail .green-shadow {
   background: rgba(24, 183, 69, 0.15);
 }
-.price-popup-content__description .red-shadown {
+.price-popup-content__detail .red-shadow {
   background: #E34B31;
   opacity: 0.15;
 }
 
-.btn-grap {
+.price-popup-content__btn {
   min-width: 215px;
   max-width: 215px;
   height: auto;
@@ -1525,14 +1525,14 @@
   border: none;
   outline: none;
 }
-.btn-grap:focus {
+.price-popup-content__btn:focus {
   outline: none;
 }
-.btn-grap:hover {
+.price-popup-content__btn:hover {
   opacity: 0.8;
 }
 
-.popup-timer-countdown {
+.price-popup-content__countdown {
   width: 100%;
   max-width: 375px;
   display: flex;
@@ -1544,11 +1544,11 @@
   padding-top: 12px;
 }
 @media only screen and (max-width: 991px) {
-  .popup-timer-countdown {
+  .price-popup-content__countdown {
     max-width: 80%;
   }
 }
-.popup-timer-countdown .label {
+.price-popup-content__countdown .countdown__title {
   font-style: normal;
   text-align: center;
   font-style: normal;
@@ -1560,23 +1560,23 @@
   margin-bottom: 12px;
 }
 @media only screen and (max-width: 991px) {
-  .popup-timer-countdown .label {
+  .price-popup-content__countdown .countdown__title {
     font-size: 14px;
     line-height: 21px;
     margin-bottom: 8px;
   }
 }
-.popup-timer-countdown .list-time {
+.price-popup-content__countdown .list__countdown {
   display: flex;
   gap: 24px;
   align-items: center;
 }
 @media only screen and (max-width: 991px) {
-  .popup-timer-countdown .list-time {
+  .price-popup-content__countdown .list__countdown {
     gap: 0px;
   }
 }
-.popup-timer-countdown .list-time .time-item-wrapper {
+.price-popup-content__countdown .list__countdown .list__countdown-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1585,12 +1585,12 @@
   max-width: max-content;
 }
 @media only screen and (max-width: 991px) {
-  .popup-timer-countdown .list-time .time-item-wrapper {
+  .price-popup-content__countdown .list__countdown .list__countdown-item {
     min-width: 55px;
     max-width: 55px;
   }
 }
-.popup-timer-countdown .list-time .time-item-wrapper .time {
+.price-popup-content__countdown .list__countdown .list__countdown-item .time {
   display: flex;
   width: 64px;
   height: 64px;
@@ -1609,14 +1609,14 @@
   margin-bottom: 8px;
 }
 @media only screen and (max-width: 991px) {
-  .popup-timer-countdown .list-time .time-item-wrapper .time {
+  .price-popup-content__countdown .list__countdown .list__countdown-item .time {
     width: 32px;
     height: 32px;
     font-size: 14px;
     line-height: 21px;
   }
 }
-.popup-timer-countdown .list-time .time-item-wrapper .label {
+.price-popup-content__countdown .list__countdown .list__countdown-item .label {
   text-align: center;
   font-style: normal;
   font-weight: 400;
@@ -1628,7 +1628,7 @@
   color: #1A202C;
 }
 @media only screen and (max-width: 991px) {
-  .popup-timer-countdown {
+  .price-popup-content__countdown {
     margin-top: 24px;
   }
 }

@@ -1505,7 +1505,7 @@
   flex-direction: column;
 }
 
-.price-popup-description {
+.price-popup-sub-title {
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -1516,7 +1516,7 @@
   text-transform: uppercase;
 }
 
-.price-popup-content__description {
+.price-popup-content__detail {
   display: flex;
   justify-content: center;
   font-style: italic;
@@ -1537,7 +1537,7 @@
     list-style: 32px;
   }
 
-  .month-1 {
+  .prefix_label {
     color: #1A202C;
     text-align: center;
     font-family: Poppins;
@@ -1547,7 +1547,7 @@
     line-height: 48px; /* 133.333% */
   }
 
-  .month-2 {
+  .shadow-content-wrapper {
     position: relative;
     top: 5px;
     left: 0;
@@ -1555,7 +1555,7 @@
     ;
   }
 
-  .shadow {
+  .box-shadow  {
     width: 232px;
     height: 23px;
     border: none;
@@ -1568,27 +1568,26 @@
     }
   }
 
-  .text-green {
+  .success-text {
     color: #18B745;
-    ;
   }
 
-  .text-red {
+  .primary-text {
     color: #E34B31;
   }
 
-  .green-shadown {
+  .green-shadow {
     background: rgba(24, 183, 69, 0.15);
   }
 
-  .red-shadown {
+  .red-shadow {
     background: #E34B31;
     opacity: 0.15;
   }
 
 }
 
-.btn-grap {
+.price-popup-content__btn{
   min-width: 215px;
   max-width: 215px;
   height: auto;
@@ -1618,7 +1617,7 @@
   }
 }
 
-.popup-timer-countdown {
+.price-popup-content__countdown {
   width: 100%;
   max-width: 375px;
   display: flex;
@@ -1633,7 +1632,7 @@
     max-width: 80%;
   }
 
-  .label {
+  .countdown__title{
     font-style: normal;
     text-align: center;
     font-style: normal;
@@ -1651,7 +1650,7 @@
     }
   }
 
-  .list-time {
+  .list__countdown {
     display: flex;
     gap: 24px;
     align-items: center;
@@ -1660,7 +1659,7 @@
       gap: 0px;
     }
 
-    .time-item-wrapper {
+    .list__countdown-item {
       display: flex;
       flex-direction: column;
       justify-content: center;
