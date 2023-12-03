@@ -163,8 +163,7 @@
                   <div class="column-40 league-column">
                     <div class="first-column">
                       <div class="status-icon">
-                        <iframe
-                          src="https://lottie.host/embed/5290d45d-a6f7-4e7f-8dec-6fd4666e4c3f/VHdTOAPywV.json"></iframe>
+                        <div class="blob red"></div>
                       </div>
                       <span class="status-text">live</span>
                     </div>
@@ -186,8 +185,7 @@
                   <div class="column-40 league-column">
                     <div class="first-column">
                       <div class="status-icon">
-                        <iframe
-                          src="https://lottie.host/embed/5290d45d-a6f7-4e7f-8dec-6fd4666e4c3f/VHdTOAPywV.json"></iframe>
+                        <div class="blob red"></div>
                       </div>
                       <span class="status-text">live</span>
                     </div>
@@ -223,8 +221,7 @@
                   <div class="column-40 league-column">
                     <div class="first-column">
                       <div class="status-icon">
-                        <iframe
-                          src="https://lottie.host/embed/5290d45d-a6f7-4e7f-8dec-6fd4666e4c3f/VHdTOAPywV.json"></iframe>
+                        <div class="blob red"></div>
                       </div>
                       <span class="status-text">live</span>
                     </div>
@@ -258,8 +255,7 @@
                   <div class="column-40 league-column">
                     <div class="first-column">
                       <div class="status-icon">
-                        <iframe
-                          src="https://lottie.host/embed/5290d45d-a6f7-4e7f-8dec-6fd4666e4c3f/VHdTOAPywV.json"></iframe>
+                        <div class="blob red"></div>
                       </div>
                       <span class="status-text">live</span>
                     </div>
@@ -293,8 +289,7 @@
                   <div class="column-40 league-column">
                     <div class="first-column">
                       <div class="status-icon">
-                        <iframe
-                          src="https://lottie.host/embed/5290d45d-a6f7-4e7f-8dec-6fd4666e4c3f/VHdTOAPywV.json"></iframe>
+                        <div class="blob red"></div>
                       </div>
                       <span class="status-text">live</span>
                     </div>
