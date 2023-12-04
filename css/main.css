@@ -355,10 +355,11 @@ a {
   align-items: center;
   flex-shrink: 0;
 }
-.common-section-match__header .hot-match-image iframe {
+.common-section-match__header .hot-match-image img {
   display: block;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 .common-section-match.section-hot-match {
   border: 1px solid #c82626;
@@ -699,7 +700,7 @@ a {
   top: 0px;
   right: -10px;
   width: 20px;
-  height: 42px;
+  height: 100%;
   display: block;
   transform: skew(20deg);
   background: #F53434;
@@ -724,3 +725,4 @@ a {
   }
 }
 
+/*# sourceMappingURL=main.css.map */

@@ -375,7 +375,7 @@ p {
   padding: 6px 0px;
   list-style: none;
   max-width: 100%;
-  overflow-x: auto;
+  overflow-x: scroll;
 }
 @media only screen and (max-width: 991px) {
   .list-sport__list {
@@ -419,3 +419,4 @@ p {
   padding: 0;
 }
 
+/*# sourceMappingURL=header.css.map */
