@@ -369,6 +369,8 @@ p {
     align-items: center;
     padding: 6px 0px;
     list-style: none;
+    max-width: 100%;
+    overflow-x: auto;
 
     @include mq(max_md) {
       max-width: 100%;
