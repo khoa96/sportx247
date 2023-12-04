@@ -283,7 +283,7 @@
           <section class="common-section-match">
             <div class="common-section-match__header">
               <div class="hot-match-image">
-                <iframe src="https://lottie.host/embed/6cd0ffc7-8ca7-4164-b531-03acfed1b23e/fgawmnZEYq.json"></iframe>
+                <img src="./images/icon-fire.png" class="icon-fire alt="">
               </div>
               <h3 class="common-section-match__header-title hot-match__title">Hot match</h3>
             </div>

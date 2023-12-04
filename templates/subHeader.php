@@ -19,6 +19,60 @@
            <p class="list-sport__item-label">Basketball</p>
         </a>
       </li>
+        <li class="list-sport__item">
+        <a href="#">
+          <img src="./images/icon-basketball.png" class="list-sport__item-image" alt="">
+           <p class="list-sport__item-label">Basketball</p>
+        </a>
+      </li>
+        <li class="list-sport__item">
+        <a href="#">
+          <img src="./images/icon-basketball.png" class="list-sport__item-image" alt="">
+           <p class="list-sport__item-label">Basketball</p>
+        </a>
+      </li>
+        <li class="list-sport__item">
+        <a href="#">
+          <img src="./images/icon-basketball.png" class="list-sport__item-image" alt="">
+           <p class="list-sport__item-label">Basketball</p>
+        </a>
+      </li>
+        <li class="list-sport__item">
+        <a href="#">
+          <img src="./images/icon-basketball.png" class="list-sport__item-image" alt="">
+           <p class="list-sport__item-label">Basketball</p>
+        </a>
+      </li>
+        <li class="list-sport__item">
+        <a href="#">
+          <img src="./images/icon-basketball.png" class="list-sport__item-image" alt="">
+           <p class="list-sport__item-label">Basketball</p>
+        </a>
+      </li>
+        <li class="list-sport__item">
+        <a href="#">
+          <img src="./images/icon-basketball.png" class="list-sport__item-image" alt="">
+           <p class="list-sport__item-label">Basketball</p>
+        </a>
+      </li>
+        <li class="list-sport__item">
+        <a href="#">
+          <img src="./images/icon-basketball.png" class="list-sport__item-image" alt="">
+           <p class="list-sport__item-label">Basketball</p>
+        </a>
+      </li>
+        <li class="list-sport__item">
+        <a href="#">
+          <img src="./images/icon-basketball.png" class="list-sport__item-image" alt="">
+           <p class="list-sport__item-label">Basketball</p>
+        </a>
+      </li>
+        <li class="list-sport__item">
+        <a href="#">
+          <img src="./images/icon-basketball.png" class="list-sport__item-image" alt="">
+           <p class="list-sport__item-label">Basketball</p>
+        </a>
+      </li>
        <li class="list-sport__item">
         <a href="#">
           <img src="./images/icon-other.png" class="list-sport__item-image" alt="">
