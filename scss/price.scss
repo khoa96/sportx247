@@ -810,6 +810,7 @@
     background: #222;
     width: 100%;
     display: flex;
+    margin-top: 24px;;
 
     @include mq(max_md) {
       border: none;
