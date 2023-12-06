@@ -2328,7 +2328,9 @@
     width: 100%;
     height: auto;
     background: rgba(249, 30, 78, 0.05);
-    border: 1px solid #f91e4e;
+    border: none;
+    border-right: none;
+    border-left: none;
     border-top: none;
     border-radius: 0px 0px 8px 8px;
     padding: 0px 24px 24px 56px;
