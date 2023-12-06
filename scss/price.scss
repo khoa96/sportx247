@@ -526,7 +526,6 @@
   &__method-content {
     display: flex;
     align-items: center;
-    margin-top: 32px;
 
     @include mq(max_md) {
       flex-direction: column;
@@ -2119,6 +2118,8 @@
 .choose-payment-type-wrapper {
   width: 100%;
   margin-top: 24px;
+  position: relative;
+  z-index: 999;
 
   @include mq(max_md) {
     margin-top: 16px;
@@ -2142,7 +2143,8 @@
 
   li {
     width: 100%;
-    height: auto;
+    height: fit-content;
+
 
     @include mq(max_md) {
       width: 100%;
@@ -2169,9 +2171,10 @@
   }
 
   .ui-tabs-active {
-    a {
+     & {
       border: 1px solid #f91e4e;
       background: rgba(249, 30, 78, 0.05);
+      border-radius: 8px;
 
       .checked-box {
         border-color: transparent;
@@ -2179,18 +2182,26 @@
       .icon-checked {
         display: block;
         border-color: transparent;
+        top: -1px;
+        left: -1px;
       }
     }
 
     .tab-no-refundable-content {
       border-bottom: none;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    .non-refundable-content-tab {
       position: relative;
       z-index: 999;
-      // top: 6px;
+      top: 0;
+      display: block;
       left: 0;
-      border-radius: 8px 8px 0px 0px;
-      // height: 90px;
-      // padding-top: 0;
+      border-radius: 0px 0px 8px 8px;
+      background: rgba(249, 30, 78, 0.05);
+
 
       @include mq(max_md) {
         padding-top: 10px;
@@ -2310,18 +2321,20 @@
     }
   }
 
+  .direction-column {
+    flex-direction: column;
+  }
   .non-refundable-content-tab {
     width: 100%;
     height: auto;
-
     background: rgba(249, 30, 78, 0.05);
-
     border: 1px solid #f91e4e;
     border-top: none;
     border-radius: 0px 0px 8px 8px;
     padding: 0px 24px 24px 56px;
     position: relative;
     top: 0px;
+    display: none;
 
     @include mq(max_md) {
       padding: 0px 40px 16px 56px;

@@ -236,100 +236,49 @@
             <article class="pricing-page__method-content-left">
               <!-- START LIST METHOD -->
               <div class="choose-payment-type-wrapper">
-                <div id="payment-method-tabs">
-                  <ul class="payment-method-tabs">
-                    <li class="payment-method-tab-item">
-                      <a href="#tabs-1" class="payment-type-item">
-                        <div class="checked-box">
+                <ul class="payment-method-tabs">
+                  <li class="payment-method-tab-item">
+                    <div class="payment-type-item tab-no-refundable-content">
+                      <div class="checked-box">
+                        <div class="checked">
                           <div class="icon-checked">
                             <img src="./images/icon-check.png" class="icon-checked" alt="">
                           </div>
                         </div>
-                        <div class="payment-method-detail">
-                          <h6 class="payment-title">Credit Card</h6>
-                          <div class="list-method-type">
-                            <div class="method-type-item">
-                              <img class="image-payment-credit" src="./images/type-payment-1.png" alt="" />
+                      </div>
+                      <div class="payment-method-detail">
+                        <div class="d-flex payment-recommend-title">
+                          <h6 class="payment-title">Non Refundable</h6>
+                          <div class="d-flex">
+                            <div class="recommend-wrapper">
+                              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                  d="M10.4525 8.35301C10.3014 8.49942 10.232 8.71117 10.2664 8.91884L10.785 11.7888C10.8288 12.0321 10.7261 12.2783 10.5225 12.4188C10.323 12.5647 10.0576 12.5822 9.84001 12.4655L7.25643 11.118C7.1666 11.0702 7.06685 11.0445 6.96476 11.0416H6.80668C6.75185 11.0498 6.69818 11.0673 6.64918 11.0941L4.06501 12.448C3.93726 12.5122 3.7926 12.5349 3.65085 12.5122C3.30551 12.4468 3.0751 12.1178 3.13168 11.7708L3.65085 8.90076C3.68526 8.69134 3.61585 8.47842 3.46476 8.32967L1.35835 6.28801C1.18218 6.11709 1.12093 5.86042 1.20143 5.62884C1.2796 5.39784 1.4791 5.22926 1.72001 5.19134L4.61918 4.77076C4.83968 4.74801 5.03335 4.61384 5.13251 4.41551L6.41001 1.79634C6.44035 1.73801 6.47943 1.68434 6.52668 1.63884L6.57918 1.59801C6.6066 1.56767 6.6381 1.54259 6.6731 1.52217L6.73668 1.49884L6.83585 1.45801H7.08143C7.30076 1.48076 7.49385 1.61201 7.59476 1.80801L8.88918 4.41551C8.98251 4.60626 9.16393 4.73867 9.37335 4.77076L12.2725 5.19134C12.5175 5.22634 12.7223 5.39551 12.8033 5.62884C12.8798 5.86276 12.8138 6.11942 12.6342 6.28801L10.4525 8.35301Z"
+                                  fill="#0F172A"></path>
+                              </svg>
+                              <span class="recommend-text">Recommended</span>
                             </div>
-                            <div class="method-type-item">
-                              <img class="image-payment-visa" src="./images/type-payment-2.png" alt="" />
-                            </div>
-                            <div class="method-type-item">
-                              <img class="image-payment-jcb" src="./images/type-payment-3.png" alt="" />
-                            </div>
-                            <div class="method-type-item">
-                              <img class="image-payment-union" src="./images/type-payment-4.png" alt="" />
-                            </div>
+                            <span class="label-discount">-15%</span>
                           </div>
                         </div>
-                      </a>
-                    </li>
-                    <li class="payment-method-tab-item">
-                      <a href="#tabs-2" class="payment-type-item">
-                        <div class="checked-box">
-                          <div class="checked">
-                            <div class="icon-checked">
-                              <img src="./images/icon-check.png" class="icon-checked" alt="">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="payment-method-detail">
-                          <h6 class="payment-title">Paypal</h6>
-                          <div class="list-method-type">
-                            <div class="method-type-item ">
-                              <img class="image-payment-paypal" src="./images/type-payment-5.png" alt="" />
-                            </div>
-                          </div>
-                        </div>
-                      </a>
-                    </li>
-                    <li class="payment-method-tab-item">
-                      <a href="#tabs-3" class="payment-type-item tab-no-refundable-content">
-                        <div class="checked-box">
-                          <div class="checked">
-                            <div class="icon-checked">
-                              <img src="./images/icon-check.png" class="icon-checked" alt="">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="payment-method-detail">
-                          <div class="d-flex payment-recommend-title">
-                            <h6 class="payment-title">Non Refundable</h6>
-                            <div class="d-flex">
-                              <div class="recommend-wrapper">
-                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
-                                  xmlns="http://www.w3.org/2000/svg">
-                                  <path
-                                    d="M10.4525 8.35301C10.3014 8.49942 10.232 8.71117 10.2664 8.91884L10.785 11.7888C10.8288 12.0321 10.7261 12.2783 10.5225 12.4188C10.323 12.5647 10.0576 12.5822 9.84001 12.4655L7.25643 11.118C7.1666 11.0702 7.06685 11.0445 6.96476 11.0416H6.80668C6.75185 11.0498 6.69818 11.0673 6.64918 11.0941L4.06501 12.448C3.93726 12.5122 3.7926 12.5349 3.65085 12.5122C3.30551 12.4468 3.0751 12.1178 3.13168 11.7708L3.65085 8.90076C3.68526 8.69134 3.61585 8.47842 3.46476 8.32967L1.35835 6.28801C1.18218 6.11709 1.12093 5.86042 1.20143 5.62884C1.2796 5.39784 1.4791 5.22926 1.72001 5.19134L4.61918 4.77076C4.83968 4.74801 5.03335 4.61384 5.13251 4.41551L6.41001 1.79634C6.44035 1.73801 6.47943 1.68434 6.52668 1.63884L6.57918 1.59801C6.6066 1.56767 6.6381 1.54259 6.6731 1.52217L6.73668 1.49884L6.83585 1.45801H7.08143C7.30076 1.48076 7.49385 1.61201 7.59476 1.80801L8.88918 4.41551C8.98251 4.60626 9.16393 4.73867 9.37335 4.77076L12.2725 5.19134C12.5175 5.22634 12.7223 5.39551 12.8033 5.62884C12.8798 5.86276 12.8138 6.11942 12.6342 6.28801L10.4525 8.35301Z"
-                                    fill="#0F172A"></path>
-                                </svg>
-                                <span class="recommend-text">Recommended</span>
-                              </div>
-                              <span class="label-discount">-15%</span>
-                            </div>
-                          </div>
 
-                          <div class="list-method-type">
-                            <div class="method-type-item ">
-                              <img class="image-payment-paypal" src="./images/type-payment-6.png" alt="" />
-                            </div>
-                            <div class="method-type-item ">
-                              <img class="image-payment-paypal" src="./images/type-payment-7.png" alt="" />
-                            </div>
-                            <div class="method-type-item ">
-                              <img class="image-payment-paypal" src="./images/type-payment-8.png" alt="" />
-                            </div>
-                            <div class="method-type-item ">
-                              <img class="image-payment-paypal" src="./images/type-payment-9.png" alt="" />
-                            </div>
+                        <div class="list-method-type">
+                          <div class="method-type-item ">
+                            <img class="image-payment-paypal" src="./images/type-payment-6.png" alt="" />
+                          </div>
+                          <div class="method-type-item ">
+                            <img class="image-payment-paypal" src="./images/type-payment-7.png" alt="" />
+                          </div>
+                          <div class="method-type-item ">
+                            <img class="image-payment-paypal" src="./images/type-payment-8.png" alt="" />
+                          </div>
+                          <div class="method-type-item ">
+                            <img class="image-payment-paypal" src="./images/type-payment-9.png" alt="" />
                           </div>
                         </div>
-                      </a>
-                    </li>
-                  </ul>
-                  <div id="tabs-1"></div>
-                  <div id="tabs-2"></div>
-                  <div id="tabs-3">
+                      </div>
+                    </div>
                     <div class="non-refundable-content-tab">
                       <h5 class="title">
                         <span class="highlight">Select</span> a cryptocurrency to
@@ -374,8 +323,140 @@
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
+                  </li>
+                  <li class="payment-method-tab-item">
+                    <div class="payment-type-item">
+                      <div class="checked-box">
+                        <div class="icon-checked">
+                          <img src="./images/icon-check.png" class="icon-checked" alt="">
+                        </div>
+                      </div>
+                      <div class="payment-method-detail">
+                        <h6 class="payment-title">Credit Card</h6>
+                        <div class="list-method-type">
+                          <div class="method-type-item">
+                            <img class="image-payment-credit" src="./images/type-payment-1.png" alt="" />
+                          </div>
+                          <div class="method-type-item">
+                            <img class="image-payment-visa" src="./images/type-payment-2.png" alt="" />
+                          </div>
+                          <div class="method-type-item">
+                            <img class="image-payment-jcb" src="./images/type-payment-3.png" alt="" />
+                          </div>
+                          <div class="method-type-item">
+                            <img class="image-payment-union" src="./images/type-payment-4.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="payment-method-tab-item">
+                    <div class="payment-type-item tab-no-refundable-content">
+                      <div class="checked-box">
+                        <div class="checked">
+                          <div class="icon-checked">
+                            <img src="./images/icon-check.png" class="icon-checked" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="payment-method-detail">
+                        <div class="d-flex payment-recommend-title">
+                          <h6 class="payment-title">Non Refundable</h6>
+                          <div class="d-flex">
+                            <div class="recommend-wrapper">
+                              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                  d="M10.4525 8.35301C10.3014 8.49942 10.232 8.71117 10.2664 8.91884L10.785 11.7888C10.8288 12.0321 10.7261 12.2783 10.5225 12.4188C10.323 12.5647 10.0576 12.5822 9.84001 12.4655L7.25643 11.118C7.1666 11.0702 7.06685 11.0445 6.96476 11.0416H6.80668C6.75185 11.0498 6.69818 11.0673 6.64918 11.0941L4.06501 12.448C3.93726 12.5122 3.7926 12.5349 3.65085 12.5122C3.30551 12.4468 3.0751 12.1178 3.13168 11.7708L3.65085 8.90076C3.68526 8.69134 3.61585 8.47842 3.46476 8.32967L1.35835 6.28801C1.18218 6.11709 1.12093 5.86042 1.20143 5.62884C1.2796 5.39784 1.4791 5.22926 1.72001 5.19134L4.61918 4.77076C4.83968 4.74801 5.03335 4.61384 5.13251 4.41551L6.41001 1.79634C6.44035 1.73801 6.47943 1.68434 6.52668 1.63884L6.57918 1.59801C6.6066 1.56767 6.6381 1.54259 6.6731 1.52217L6.73668 1.49884L6.83585 1.45801H7.08143C7.30076 1.48076 7.49385 1.61201 7.59476 1.80801L8.88918 4.41551C8.98251 4.60626 9.16393 4.73867 9.37335 4.77076L12.2725 5.19134C12.5175 5.22634 12.7223 5.39551 12.8033 5.62884C12.8798 5.86276 12.8138 6.11942 12.6342 6.28801L10.4525 8.35301Z"
+                                  fill="#0F172A"></path>
+                              </svg>
+                              <span class="recommend-text">Recommended</span>
+                            </div>
+                            <span class="label-discount">-15%</span>
+                          </div>
+                        </div>
+
+                        <div class="list-method-type">
+                          <div class="method-type-item ">
+                            <img class="image-payment-paypal" src="./images/type-payment-6.png" alt="" />
+                          </div>
+                          <div class="method-type-item ">
+                            <img class="image-payment-paypal" src="./images/type-payment-7.png" alt="" />
+                          </div>
+                          <div class="method-type-item ">
+                            <img class="image-payment-paypal" src="./images/type-payment-8.png" alt="" />
+                          </div>
+                          <div class="method-type-item ">
+                            <img class="image-payment-paypal" src="./images/type-payment-9.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="non-refundable-content-tab">
+                      <h5 class="title">
+                        <span class="highlight">Select</span> a cryptocurrency to
+                        pay:
+                      </h5>
+                      <div class="list-cryptocurrency-to-pay">
+                        <div class="cryptocurrency-to-pay-item">
+                          <h6 class="cryptocurrency-title">BNB Chain</h6>
+                          <div class="list-cryptocurrency-to-pay-box">
+                            <!-- thêm class active để tạo trạng thái active khi click -->
+                            <div class="box-cryptocurrency-item active">
+                              <img src="./images/type-payment-8.png" class="cryptocurrency-image" alt="" />
+                              <label class="cryptocurrency-name">BNB</label>
+                            </div>
+                            <div class="box-cryptocurrency-item">
+                              <img src="./images/type-payment-9.png" class="cryptocurrency-image" alt="" />
+                              <label class="cryptocurrency-name">USDT</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="cryptocurrency-to-pay-item">
+                          <h6 class="cryptocurrency-title">ETH Chain</h6>
+                          <div class="list-cryptocurrency-to-pay-box">
+                            <div class="box-cryptocurrency-item">
+                              <img src="./images/type-payment-7.png" class="cryptocurrency-image" alt="" />
+                              <label class="cryptocurrency-name">ETH</label>
+                            </div>
+                            <div class="box-cryptocurrency-item">
+                              <img src="./images/type-payment-9.png" class="cryptocurrency-image" alt="" />
+                              <label class="cryptocurrency-name">USDT</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="cryptocurrency-to-pay-item">
+                          <h6 class="cryptocurrency-title">BTC Chain</h6>
+                          <div class="list-cryptocurrency-to-pay-box">
+                            <div class="box-cryptocurrency-item">
+                              <img src="./images/type-payment-6.png" class="cryptocurrency-image" alt="" />
+                              <label class="cryptocurrency-name">BTC</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="payment-method-tab-item">
+                    <div class="payment-type-item">
+                      <div class="checked-box">
+                        <div class="checked">
+                          <div class="icon-checked">
+                            <img src="./images/icon-check.png" class="icon-checked" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="payment-method-detail">
+                        <h6 class="payment-title">Paypal</h6>
+                        <div class="list-method-type">
+                          <div class="method-type-item ">
+                            <img class="image-payment-paypal" src="./images/type-payment-5.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
               </div>
               <!-- END LIST METHOD -->
 
@@ -673,11 +754,12 @@
   <?php include "templates/footer2.php"; ?>
   <script src="./js/popup.js"></script>
   <script>
-  $(function() {
-    $("#payment-method-tabs").tabs({
-      active: 1,
-    });
-  });
+  $(".payment-method-tab-item").on('click', function() {
+    $(".payment-method-tab-item").each(function(index) {
+      $(this).removeClass('ui-tabs-active')
+    })
+    $(this).addClass('ui-tabs-active')
+  })
   </script>
 </body>
 

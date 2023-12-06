@@ -503,7 +503,6 @@
 .pricing-page__method-content {
   display: flex;
   align-items: center;
-  margin-top: 32px;
 }
 @media only screen and (max-width: 991px) {
   .pricing-page__method-content {
@@ -2011,6 +2010,8 @@
 .choose-payment-type-wrapper {
   width: 100%;
   margin-top: 24px;
+  position: relative;
+  z-index: 999;
 }
 @media only screen and (max-width: 991px) {
   .choose-payment-type-wrapper {
@@ -2035,7 +2036,7 @@
 }
 .choose-payment-type-wrapper li {
   width: 100%;
-  height: auto;
+  height: fit-content;
 }
 @media only screen and (max-width: 991px) {
   .choose-payment-type-wrapper li {
@@ -2059,26 +2060,36 @@
   height: 100%;
   object-fit: cover;
 }
-.choose-payment-type-wrapper .ui-tabs-active a {
+.choose-payment-type-wrapper .ui-tabs-active {
   border: 1px solid #f91e4e;
   background: rgba(249, 30, 78, 0.05);
+  border-radius: 8px;
 }
-.choose-payment-type-wrapper .ui-tabs-active a .checked-box {
+.choose-payment-type-wrapper .ui-tabs-active .checked-box {
   border-color: transparent;
 }
-.choose-payment-type-wrapper .ui-tabs-active a .icon-checked {
+.choose-payment-type-wrapper .ui-tabs-active .icon-checked {
   display: block;
   border-color: transparent;
+  top: -1px;
+  left: -1px;
 }
 .choose-payment-type-wrapper .ui-tabs-active .tab-no-refundable-content {
   border-bottom: none;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.choose-payment-type-wrapper .ui-tabs-active .non-refundable-content-tab {
   position: relative;
   z-index: 999;
+  top: 0;
+  display: block;
   left: 0;
-  border-radius: 8px 8px 0px 0px;
+  border-radius: 0px 0px 8px 8px;
+  background: rgba(249, 30, 78, 0.05);
 }
 @media only screen and (max-width: 991px) {
-  .choose-payment-type-wrapper .ui-tabs-active .tab-no-refundable-content {
+  .choose-payment-type-wrapper .ui-tabs-active .non-refundable-content-tab {
     padding-top: 10px;
     top: 0;
     height: auto;
@@ -2183,6 +2194,9 @@
   max-width: 16px;
   height: 16px;
 }
+.choose-payment-type-wrapper .direction-column {
+  flex-direction: column;
+}
 .choose-payment-type-wrapper .non-refundable-content-tab {
   width: 100%;
   height: auto;
@@ -2193,6 +2207,7 @@
   padding: 0px 24px 24px 56px;
   position: relative;
   top: 0px;
+  display: none;
 }
 @media only screen and (max-width: 991px) {
   .choose-payment-type-wrapper .non-refundable-content-tab {
